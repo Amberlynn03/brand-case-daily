@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "graza",
+    date: "2026-06-30",
+    brand: "Graza",
+    category: "食品消费品",
+    market: "美国",
+    tags: ["场景命名", "包装创新", "创作者冷启动"],
+    summary: "把复杂的橄榄油品质知识压缩成 Sizzle 与 Drizzle 两个厨房动作，再让挤压瓶同时承担使用体验、货架识别、短视频露出与补充装复购。",
+    insight: "成熟品类的创新，常常不是增加知识，而是把选择压缩成一个直觉动作。",
+    report: "reports/2026-06-30-graza.html",
+    accent: "#d7ff45",
+    cover: ""
+  },
+  {
     slug: "the-farmers-dog",
     date: "2026-06-29",
     brand: "The Farmer's Dog",
