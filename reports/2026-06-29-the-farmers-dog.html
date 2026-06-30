@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Farmer’s Dog 深度拆解｜把宠物鲜食的高门槛变成信任系统</title>
+<style>
+:root{--ink:#18352d;--paper:#f6f1e7;--lime:#dff06a;--orange:#f1784f;--cream:#fffaf0;--muted:#66756e;--line:#d9d3c6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 system-ui,-apple-system,"Segoe UI","PingFang SC",sans-serif}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:3px}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}
+header{min-height:92vh;display:grid;align-items:end;padding:48px 0;background:var(--ink);color:#fff;position:relative;overflow:hidden}
+header:before{content:"FRESH ≠ EASY";position:absolute;right:-2vw;top:6vh;font:900 clamp(60px,14vw,190px)/.8 Arial;color:#244a3f;letter-spacing:-.08em;transform:rotate(-4deg)}
+.eyebrow,.tag{font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:800}.hero{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:end}
+h1{font-size:clamp(50px,8vw,112px);line-height:.88;letter-spacing:-.065em;margin:18px 0 24px}.lead{font-size:clamp(20px,2.3vw,30px);line-height:1.35;max-width:760px}.stamp{border:1px solid #547166;padding:24px;border-radius:24px;background:#1b3b32}.stamp strong{display:block;font-size:44px;color:var(--lime)}
+main{padding:72px 0 100px}.section{margin:0 0 92px}.section-label{display:flex;gap:12px;align-items:center;font-weight:900;font-size:13px;letter-spacing:.12em;text-transform:uppercase}.section-label:before{content:"";width:42px;height:4px;background:var(--orange)}
+h2{font-size:clamp(34px,5vw,66px);line-height:1.05;letter-spacing:-.045em;margin:18px 0 30px;max-width:900px}h3{font-size:25px;line-height:1.25;margin:0 0 14px}.intro{font-size:20px;max-width:830px}
+.snapshot{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--ink);border-left:1px solid var(--ink)}.snapshot div{padding:20px;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);min-height:125px}.snapshot b{display:block;font-size:12px;color:var(--muted);margin-bottom:8px}.snapshot strong{font-size:20px}
+.chapter{background:var(--cream);border:1px solid var(--line);border-radius:28px;padding:clamp(24px,5vw,58px);margin:28px 0;box-shadow:0 18px 50px #18352d0d}.chapter-no{font:900 72px/1 Arial;color:var(--orange);float:right}.logic{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:26px}.logic article{padding:20px;border-top:3px solid var(--ink);background:#fff}.logic article:nth-child(5){border-color:var(--lime)}.logic article:nth-child(6){border-color:var(--orange)}.logic b{display:block;font-size:12px;letter-spacing:.1em;margin-bottom:7px}
+.funnel{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:28px 0}.funnel div{padding:22px 15px;background:var(--ink);color:#fff;min-height:145px}.funnel div:nth-child(even){background:#31594c}.funnel span{display:block;color:var(--lime);font:900 30px/1 Arial;margin-bottom:12px}
+.matrix{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.matrix article{padding:22px;border-radius:18px;background:#fff;border:1px solid var(--line)}.matrix .hot{background:var(--lime);border-color:var(--ink)}
+.actions{counter-reset:a;display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.actions li{list-style:none;background:var(--ink);color:#fff;border-radius:18px;padding:22px}.actions li:before{counter-increment:a;content:"0" counter(a);display:block;color:var(--lime);font-weight:900;font-size:30px}
+.risk{background:#f5d8cb;border-left:8px solid var(--orange);padding:30px}.sources li{margin:14px 0;padding-bottom:14px;border-bottom:1px solid var(--line)}.trust{font-size:11px;font-weight:900;padding:4px 8px;border-radius:99px;background:#dce9e3;margin-right:8px}.note{font-size:13px;color:var(--muted)}
+footer{background:var(--lime);padding:45px 0;font-weight:800}.mobile-title{display:none}
+@media(max-width:760px){header{min-height:760px}.hero{grid-template-columns:1fr}.stamp{padding:18px}.snapshot{grid-template-columns:repeat(2,1fr)}.logic,.matrix,.actions{grid-template-columns:1fr}.funnel{grid-template-columns:1fr}.funnel div{min-height:auto}.chapter-no{font-size:50px}main{padding-top:48px}.section{margin-bottom:64px}}
+</style>
+</head>
+<body>
+<header><div class="wrap hero">
+  <div><div class="eyebrow">Daily Overseas Brand Case · 2026.06.29</div><h1>The<br>Farmer’s<br>Dog</h1>
+  <p class="lead">它卖的不是“更新鲜的狗粮”，而是一套把主人焦虑逐步转译为问卷、份量、配送与长期关系的信任系统。</p></div>
+  <aside class="stamp"><span class="tag">今日判断</span><strong>信任，是产品的一部分</strong><p>品类：宠物鲜食订阅<br>目标市场：美国本土 48 州<br>成立：2014，纽约</p></aside>
+</div></header>
+<main class="wrap">
+<section class="section">
+  <div class="section-label">01 · Opening contradiction</div><h2>越像“真正的食物”，越难成为方便的日用品</h2>
+  <p class="intro">传统干粮的优势并不只是便宜：它耐储存、无需解释、随手就能买。鲜食恰好反过来——价格更高、需要冷冻、换粮可能不适、购买前还要填写资料。对用户来说，“看得见肉和蔬菜”只解决了成分想象，没有解决长期喂养的麻烦。</p>
+  <p class="intro">The Farmer’s Dog 的突破，不是用一句“human-grade”击败干粮，而是把复杂性藏进一套连续体验：先用狗的信息完成个性化承诺，再用预分装降低每天执行成本，用定期配送降低补货成本，最后用内容、生命周期触达与情感广告建立长期正当性。</p>
+  <p class="intro">但必须划线：品牌的“长寿”愿景不是已被证明的因果结论。公开研究和合作能增强可信度，却不能证明食用该产品会延长寿命。好营销可以把信任具体化，不能替代临床证据。</p>
+</section>
+<section class="section">
+ <div class="section-label">02 · Brand snapshot</div><h2>一张表看懂生意骨架</h2>
+ <div class="snapshot">
+  <div><b>成立 / 总部</b><strong>2014 / 纽约</strong></div><div><b>核心产品</b><strong>冷冻鲜食、个性化份量</strong></div>
+  <div><b>价格带</b><strong>按犬只方案动态报价</strong><small>官网不提供统一公开价</small></div><div><b>主要渠道</b><strong>DTC 官网订阅</strong><small>公开资料称覆盖美国本土 48 州</small></div>
+  <div><b>目标用户</b><strong>高关怀、高支付意愿犬主</strong></div><div><b>核心卖点</b><strong>human-grade、预分装、直送</strong></div>
+  <div><b>经营规模</b><strong>$1.2B 年化净收入</strong><small>2024 估算，非公司财报确认</small></div><div><b>履约规模</b><strong>每月数百万份</strong><small>品牌公开口径，2025</small></div>
+ </div>
+</section>
+<section class="section">
+ <div class="section-label">03 · Deep dives</div><h2>四个环节，把高门槛拆成可执行动作</h2>
+ <article class="chapter"><span class="chapter-no">01</span><h3>问卷不是推荐器，而是第一次“被理解”</h3>
+  <div class="logic"><article><b>市场矛盾</b>用户想要适合“我家这只狗”的方案，却无法判断热量、份量与换粮节奏。</article><article><b>品牌动作</b>入口先收集品种、年龄、体型、活动量及健康相关信息，再输出方案与预分装份量。</article><article><b>证据 / 例子</b>官网流程与第三方拆解均显示存在犬只档案问卷；真正个性化主要是热量和份量，配方并非一犬一方。</article><article><b>底层逻辑</b>先让用户投入信息，再解释方案；“资料—建议—包装姓名”让标准化 SKU 获得关系感。</article><article><b>可复制动作</b>把落地页首屏 CTA 从“立即购买”改成 5 题诊断：使用场景、当前障碍、频率、体量、禁忌；结果页只推荐一个起步方案。</article><article><b>风险边界</b>不可把营销问卷包装为医疗诊断；涉及疾病、处方或营养治疗时必须引导咨询兽医。</article></div>
+ </article>
+ <article class="chapter"><span class="chapter-no">02</span><h3>把“鲜食更麻烦”改写为“每天少做一次决定”</h3>
+  <div class="logic"><article><b>市场矛盾</b>鲜食的冷冻、解冻、计量和持续补货，天然比舀一杯干粮更复杂。</article><article><b>品牌动作</b>采用预分装、姓名标记、定期冷链直送，把复杂操作变成储存—解冻—撕包—入碗。</article><article><b>证据 / 例子</b>官网强调按犬只需要预分装并送货上门；第三方资料指出高含水量和冷链让运输成本显著高于干粮。</article><article><b>底层逻辑</b>高端订阅必须用“省认知成本”抵消价格与物理操作成本；包装就是每日使用界面。</article><article><b>可复制动作</b>拍一支不超过 20 秒的真实使用视频，逐帧列出动作数；删掉一个量取、混合或判断步骤，再把减少的动作写进卖点。</article><article><b>风险边界</b>冷链密度、包装损耗与最后一公里决定模型；在订单稀疏市场照搬 DTC 冷链，毛利很可能失真。</article></div>
+ </article>
+ <article class="chapter"><span class="chapter-no">03</span><h3>情感广告负责扩大人群，效果系统负责接住意图</h3>
+  <div class="logic"><article><b>市场矛盾</b>只投“成分更好”的效果广告，会困在已懂鲜食的窄人群，CAC 随竞争上涨。</article><article><b>品牌动作</b>2023 年超级碗《Forever》不讲配方参数，讲人和狗共同变老；此前先测试体育场景与高关注时点，之后把洞察延展到全年重点赛事。</article><article><b>证据 / 例子</b>该片获 USA Today 2023 Ad Meter 第一；媒体策略合作方称带来首日订阅峰值与持续效果，但未披露绝对数。</article><article><b>底层逻辑</b>“长久陪伴”扩大的是品类入口；问卷、试用优惠和再营销承担转化。品牌广告与效果广告不是同一素材的不同尺寸。</article><article><b>可复制动作</b>先用 3 个中等规模节点测试同一情感母题，比较品牌搜索、直接流量和问卷完成率的增量，再决定是否购买大事件。</article><article><b>风险边界</b>超级碗是放大器，不是冷启动模板；没有履约容量、归因基线和可复用创意资产，大曝光会放大浪费。</article></div>
+ </article>
+ <article class="chapter"><span class="chapter-no">04</span><h3>订阅留存不靠“忘记取消”，而靠宠物档案驱动沟通</h3>
+  <div class="logic"><article><b>市场矛盾</b>宠物一旦适应食物会形成惯性，但价格、储存空间、配送节奏也会促使用户暂停或离开。</article><article><b>品牌动作</b>整合订单、联系信息、配送与宠物资料，用实时触发信息匹配生命周期阶段，并把博客内容动态加入邮件。</article><article><b>证据 / 例子</b>Simon Data 合作案例称统一数据后，每月节省 80 小时工程工作，邮件实验量提升 10 倍；这是供应商案例口径。</article><article><b>底层逻辑</b>留存信息不应只说“下一箱到了”，而应根据犬龄、换粮阶段、配送状态和内容兴趣解释下一步。</article><article><b>可复制动作</b>建立 5 个事件：问卷未完成、首箱签收、换粮第 3 天、预计吃完前 3 天、跳过配送；每个事件只设置一个用户动作。</article><article><b>风险边界</b>个性化依赖明确授权和准确数据；敏感健康信息、过度追踪与“疗效暗示”都会造成隐私和合规风险。</article></div>
+ </article>
+</section>
+<section class="section">
+ <div class="section-label">04 · Page & material observation</div><h2>页面不是解释食物，而是在消除一连串犹豫</h2>
+ <div class="funnel"><div><span>01</span>情感入口<br><small>让“陪伴更久”先于成分参数</small></div><div><span>02</span>低门槛 CTA<br><small>先了解你的狗，不先展示一墙 SKU</small></div><div><span>03</span>信息投入<br><small>品种、年龄、体型、活动量与健康线索</small></div><div><span>04</span>方案呈现<br><small>把价格与份量绑定到具体犬只</small></div><div><span>05</span>长期承接<br><small>配送、教育内容和阶段触达</small></div></div>
+ <p class="note">本报告未内嵌品牌受版权保护的摄影素材；以上为依据公开页面流程制作的 CSS 信息图。品牌官网与广告原片链接见来源区。</p>
+</section>
+<section class="section">
+ <div class="section-label">05 · Replication matrix</div><h2>不是“学它做订阅”，而是按顺序降低风险</h2>
+ <div class="matrix"><article class="hot"><h3>第一周：验证冲突</h3><p>访谈 10 位现有用户，只问最近一次放弃或拖延使用的现场；整理“想要结果”与“不愿付出的动作”。</p></article><article><h3>第二周：压缩动作</h3><p>录制完整开箱到使用流程，以动作数、等待时长、判断次数做基线；至少删除一个步骤。</p></article><article><h3>第三周：建立诊断</h3><p>用 5 个问题输出唯一推荐方案；明确哪些信息用于推荐、哪些不收集。</p></article><article><h3>第四周：分层内容</h3><p>把广告分成冲突、机制、证明、使用、异议五类；每条素材只完成一个任务。</p></article><article><h3>第五周：事件触达</h3><p>围绕签收、首次使用、复购窗口、暂停建立事件，不再只按“第 N 天”群发。</p></article><article><h3>第六周：增量评估</h3><p>同时看品牌搜索、诊断完成、首购、第二次履约与退款；拒绝用单一 ROAS 判断品牌资产。</p></article></div>
+</section>
+<section class="section">
+ <div class="section-label">06 · Action library</div><h2>7 条动作级打法</h2>
+ <ol class="actions"><li>把首屏商品列表改成“帮我选”的诊断入口。</li><li>让结果页只推荐一个起步方案，并解释依据与不适用范围。</li><li>用真实使用录像统计动作数，优先改产品和包装，不先改文案。</li><li>给广告素材明确分工：拉新人群的情感片不承担完整产品教育。</li><li>大事件前至少完成三次小规模场景测试，并预设增量指标。</li><li>以“宠物/使用对象”为资料主键连接订单、配送和内容，而不只围绕购买者邮箱。</li><li>将暂停、跳过与调整份量设计成留存功能；避免用取消摩擦制造虚假留存。</li></ol>
+</section>
+<section class="section risk">
+ <div class="section-label">07 · Risks & boundaries</div><h2>最危险的照搬，是只学“鲜”和“订阅”</h2>
+ <p><b>合规：</b>human-grade、健康改善、疾病相关表达受具体市场法规约束；品牌研究或兽医合作不能自动变成疗效宣称。</p>
+ <p><b>供应链：</b>冷链、保质期、包装、退货损耗和地区密度是核心成本，跨境销售还涉及检疫与食品监管。</p>
+ <p><b>品类：</b>高频刚需、对象差异明显、结果可观察的产品更适合档案式订阅；低频耐用品不能机械套用。</p>
+ <p><b>文化：</b>“宠物家庭成员化”的程度、住房冷冻空间和订阅习惯因市场不同，必须本地验证。</p>
+ <p><b>证据：</b>公开资料尚不能证明该产品延长犬只寿命；$1.2B 年化净收入为第三方估算，不是经审计财报。</p>
+</section>
+<section class="section">
+ <div class="section-label">08 · Tomorrow checklist</div><h2>明天就做的 4 件事</h2>
+ <ol class="actions"><li>抽取 20 条客服对话，标记价格、效果、使用、配送四类犹豫。</li><li>录一遍产品真实使用流程，写下动作数、等待时间和判断点。</li><li>画出 5 题诊断与唯一推荐结果页，不开发，先给 5 位用户测试。</li><li>为首购后 14 天列出 5 个行为事件和对应的一条消息。</li></ol>
+</section>
+<section class="section sources">
+ <div class="section-label">09 · Sources</div><h2>来源与可信度</h2>
+ <p class="note">访问日期均为 2026-06-29。可信度标记仅表示与该品牌事实的接近程度，不代表对所有主张的背书。</p>
+ <ol>
+  <li><span class="trust">官方 · 高</span><a href="https://www.thefarmersdog.com/" target="_blank">The Farmer’s Dog 官网</a> — 产品承诺、问卷入口、预分装与配送口径。</li>
+  <li><span class="trust">官方 · 高</span><a href="https://www.thefarmersdog.com/digest" target="_blank">The Farmer’s Dog Digest</a> — 品牌自建宠物照护内容体系。</li>
+  <li><span class="trust">第三方研究 · 中高</span><a href="https://research.contrary.com/company/the-farmers-dog" target="_blank">Contrary Research：公司拆解</a> — 成立、总部、渠道、经营估算、竞争与个性化边界；含第三方估算。</li>
+  <li><span class="trust">合作方 · 中高</span><a href="https://www.edencollective.co/articles/farmers-dog-super-bowl" target="_blank">Eden Collective：超级碗媒介策略复盘</a> — 节点测试、订阅峰值和后续投放逻辑；未披露绝对转化。</li>
+  <li><span class="trust">合作方 · 中</span><a href="https://www.semasio.com/case-studies/the-farmers-dog" target="_blank">Semasio：受众细分案例</a> — 20M+ 展示、CPA 低于基准 40%、38k+ 互动；供应商案例口径。</li>
+  <li><span class="trust">合作方 · 中</span><a href="https://go.simondata.com/hubfs/The%20Farmers%20Dog%20Case%20Study%202025.pdf" target="_blank">Simon Data：生命周期营销案例</a> — 数据统一、80 小时/月工程节省、10 倍邮件实验；供应商披露。</li>
+  <li><span class="trust">第三方 · 中</span><a href="https://motionapp.com/library/the-farmer-s-dog" target="_blank">Motion 广告素材观察</a> — 近期 Meta 创意中的成分、开箱、优惠与见证框架。</li>
+  <li><span class="trust">参考线索</span><a href="https://mp.weixin.qq.com/s/v0XPooL1U2TS1XEpskJB1g" target="_blank">用户指定参考文章</a> — 用于拆解深度与叙事结构参照，不作为品牌事实来源。</li>
+ </ol>
+</section>
+</main>
+<footer><div class="wrap">THE TAKEAWAY — 高门槛产品的增长，不是把门槛藏起来；而是把每一道门槛改造成可理解、可执行、可持续的信任动作。</div></footer>
+</body></html>

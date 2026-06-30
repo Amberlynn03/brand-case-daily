@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>出海品牌案例拆解 - POP MART</title>
+  <style>
+    :root {
+      --ink: #16202a;
+      --muted: #637083;
+      --line: #dbe3ea;
+      --paper: #f7f4ee;
+      --panel: #ffffff;
+      --red: #e64242;
+      --blue: #2764d8;
+      --green: #138a72;
+      --yellow: #f3b33d;
+      --shadow: 0 18px 44px rgba(38, 45, 55, .12);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: Inter, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.65;
+    }
+    a { color: var(--blue); text-decoration: none; }
+    .hero {
+      min-height: 78vh;
+      padding: 42px clamp(20px, 6vw, 76px);
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(320px, .95fr);
+      gap: 44px;
+      align-items: center;
+      background:
+        linear-gradient(135deg, rgba(255,255,255,.92), rgba(255,255,255,.58)),
+        radial-gradient(circle at 82% 12%, rgba(230,66,66,.22), transparent 34%),
+        linear-gradient(135deg, #fff8ec, #eef6ff 55%, #fff);
+    }
+    .eyebrow {
+      display: inline-flex;
+      gap: 10px;
+      align-items: center;
+      color: var(--red);
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      font-size: 13px;
+    }
+    .eyebrow::before {
+      content: "";
+      width: 34px;
+      height: 3px;
+      background: var(--red);
+      border-radius: 99px;
+    }
+    h1 {
+      margin: 18px 0 16px;
+      font-size: clamp(44px, 8vw, 96px);
+      line-height: .92;
+      letter-spacing: 0;
+    }
+    .hero p {
+      max-width: 660px;
+      margin: 0 0 28px;
+      font-size: clamp(17px, 2vw, 23px);
+      color: #344255;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tag {
+      border: 1px solid rgba(22,32,42,.12);
+      background: rgba(255,255,255,.68);
+      padding: 7px 11px;
+      border-radius: 99px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .toy-stage {
+      min-height: 520px;
+      position: relative;
+      border: 1px solid rgba(22,32,42,.08);
+      background: #fff;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+    .toy-stage::before {
+      content: "POP CULTURE IP";
+      position: absolute;
+      inset: auto 20px 18px auto;
+      color: rgba(22,32,42,.09);
+      font-size: 52px;
+      font-weight: 900;
+      letter-spacing: 0;
+      writing-mode: vertical-rl;
+    }
+    .figure {
+      position: absolute;
+      left: 50%;
+      top: 52%;
+      width: min(58%, 340px);
+      aspect-ratio: 1;
+      transform: translate(-50%, -50%);
+      border-radius: 46% 46% 42% 42%;
+      background:
+        radial-gradient(circle at 36% 40%, #fff 0 4%, transparent 5%),
+        radial-gradient(circle at 64% 40%, #fff 0 4%, transparent 5%),
+        radial-gradient(circle at 50% 58%, #ffb1b1 0 9%, transparent 10%),
+        linear-gradient(160deg, #323a46 0 52%, #d93434 53% 100%);
+      border: 10px solid #16202a;
+    }
+    .ear {
+      position: absolute;
+      top: -70px;
+      width: 120px;
+      height: 150px;
+      background: #16202a;
+      border-radius: 70% 70% 24% 24%;
+    }
+    .ear.left { left: 18px; transform: rotate(-22deg); }
+    .ear.right { right: 18px; transform: rotate(22deg); }
+    .figure::after {
+      content: "LABUBU";
+      position: absolute;
+      left: 50%;
+      bottom: -54px;
+      transform: translateX(-50%);
+      padding: 10px 18px;
+      background: var(--yellow);
+      border: 3px solid var(--ink);
+      font-weight: 900;
+      box-shadow: 8px 8px 0 #16202a;
+    }
+    .bubble {
+      position: absolute;
+      background: #fff;
+      border: 2px solid var(--ink);
+      border-radius: 999px;
+      padding: 11px 15px;
+      font-weight: 850;
+      box-shadow: 5px 5px 0 rgba(22,32,42,.16);
+    }
+    .b1 { left: 28px; top: 46px; }
+    .b2 { right: 34px; top: 114px; color: var(--red); }
+    .b3 { left: 42px; bottom: 78px; color: var(--green); }
+    main { padding: 52px clamp(18px, 5vw, 72px) 76px; }
+    .section {
+      max-width: 1180px;
+      margin: 0 auto 34px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 18px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 24px;
+      box-shadow: 0 8px 20px rgba(31, 43, 58, .05);
+    }
+    .span-3 { grid-column: span 3; }
+    .span-4 { grid-column: span 4; }
+    .span-5 { grid-column: span 5; }
+    .span-6 { grid-column: span 6; }
+    .span-7 { grid-column: span 7; }
+    .span-12 { grid-column: span 12; }
+    h2 {
+      margin: 0 0 18px;
+      font-size: clamp(24px, 3vw, 36px);
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 0 0 10px;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+    .muted { color: var(--muted); }
+    .metric {
+      min-height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .num {
+      font-size: clamp(32px, 4vw, 50px);
+      line-height: 1;
+      font-weight: 900;
+      letter-spacing: 0;
+    }
+    .red { color: var(--red); }
+    .blue { color: var(--blue); }
+    .green { color: var(--green); }
+    .yellow { color: #a96b00; }
+    .path {
+      display: grid;
+      gap: 12px;
+    }
+    .step {
+      display: grid;
+      grid-template-columns: 52px 1fr;
+      gap: 14px;
+      align-items: start;
+      padding: 16px;
+      background: #f8fafc;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .dot {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: var(--ink);
+      font-weight: 900;
+    }
+    .bar {
+      height: 13px;
+      background: #edf1f5;
+      border-radius: 99px;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    .bar span {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--red), var(--yellow));
+    }
+    .playbook {
+      counter-reset: action;
+      display: grid;
+      gap: 12px;
+    }
+    .action {
+      position: relative;
+      padding: 16px 16px 16px 58px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    .action::before {
+      counter-increment: action;
+      content: counter(action);
+      position: absolute;
+      left: 16px;
+      top: 17px;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: var(--blue);
+      font-weight: 900;
+    }
+    .matrix {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+    .matrix div {
+      min-height: 112px;
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      background: #fbfcfe;
+    }
+    .sources {
+      columns: 2;
+      column-gap: 32px;
+      padding-left: 18px;
+      font-size: 14px;
+    }
+    .sources li { break-inside: avoid; margin: 0 0 10px; }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; min-height: auto; }
+      .toy-stage { min-height: 420px; }
+      .span-3, .span-4, .span-5, .span-6, .span-7, .span-12 { grid-column: span 12; }
+      .matrix { grid-template-columns: 1fr; }
+      .sources { columns: 1; }
+    }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">Daily Overseas Brand Case · 2026-06-26</div>
+      <h1>POP MART<br>泡泡玛特</h1>
+      <p>今日判断：泡泡玛特不是简单把盲盒卖到海外，而是把“IP 稀缺感 + 社媒可晒性 + 线下排队仪式 + 全球履约”打成一套情绪消费系统。</p>
+      <div class="tags">
+        <span class="tag">潮玩 / 收藏玩具</span>
+        <span class="tag">核心市场：美国、亚太、欧洲</span>
+        <span class="tag">关键增长：Labubu / The Monsters</span>
+        <span class="tag">风险：单一 IP 依赖</span>
+      </div>
+    </div>
+    <div class="toy-stage" aria-label="Labubu-inspired visual illustration">
+      <div class="bubble b1">从产品出海到 IP 出海</div>
+      <div class="bubble b2">海外收入 291.9%+</div>
+      <div class="bubble b3">线下店 + 社媒种草 + 稀缺发售</div>
+      <div class="figure"><div class="ear left"></div><div class="ear right"></div></div>
+    </div>
+  </section>
+
+  <main>
+    <section class="section grid">
+      <div class="card span-3 metric">
+        <h3>2025 营收</h3>
+        <div class="num red">371.2亿</div>
+        <p class="muted">人民币，同比 +184.7%。</p>
+      </div>
+      <div class="card span-3 metric">
+        <h3>海外收入</h3>
+        <div class="num blue">162.7亿</div>
+        <p class="muted">人民币，同比 +291.9%，成为最强增量。</p>
+      </div>
+      <div class="card span-3 metric">
+        <h3>The Monsters</h3>
+        <div class="num green">141.6亿</div>
+        <p class="muted">人民币收入，约占全年收入 38%。</p>
+      </div>
+      <div class="card span-3 metric">
+        <h3>毛利率</h3>
+        <div class="num yellow">72.1%</div>
+        <p class="muted">IP 商品、稀缺发售和渠道直营共同推高利润空间。</p>
+      </div>
+    </section>
+
+    <section class="section grid">
+      <div class="card span-5">
+        <h2>品牌快照</h2>
+        <p><strong>品牌：</strong>POP MART 泡泡玛特</p>
+        <p><strong>品类：</strong>潮流玩具、角色 IP、盲盒、毛绒挂件、线下体验零售</p>
+        <p><strong>目标用户：</strong>18-35 岁泛收藏人群、潮流文化消费者、礼品购买者、社媒表达型用户</p>
+        <p><strong>核心卖点：</strong>用强识别 IP、系列化发售和可晒可收藏的产品形态，把小额购买变成持续追新。</p>
+      </div>
+      <div class="card span-7">
+        <h2>为什么值得拆</h2>
+        <div class="matrix">
+          <div><h3>爆品不是终点</h3><p class="muted">Labubu 的价值不只在销量，而在它把门店排队、明星背包、开箱视频、二级市场讨论串成了持续曝光。</p></div>
+          <div><h3>直营能力在海外放大</h3><p class="muted">从电商到门店、机器人商店、快闪活动，泡泡玛特掌握了价格、陈列、会员和新品节奏。</p></div>
+          <div><h3>内容天然短视频化</h3><p class="muted">盲盒的不确定性、挂件的穿搭属性、稀缺款的寻找过程，都适合 TikTok/Instagram 的展示逻辑。</p></div>
+          <div><h3>风险也清晰</h3><p class="muted">市场担心 The Monsters 单一 IP 占比过高，说明品牌必须把热度转成 IP 矩阵和长期世界观。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section grid">
+      <div class="card span-7">
+        <h2>增长路径拆解</h2>
+        <div class="path">
+          <div class="step"><div class="dot">1</div><div><h3>产品定位：低门槛收藏 + 高情绪溢价</h3><p class="muted">毛绒挂件把潮玩从“摆件”变成“随身表达”，价格不如奢侈品高，但拥有社交展示和身份暗号。</p></div></div>
+          <div class="step"><div class="dot">2</div><div><h3>渠道组合：线上抢购制造速度，线下门店制造仪式</h3><p class="muted">官网和 App 承接即时需求，门店、快闪和机器人商店负责把新品发售变成城市事件。</p></div></div>
+          <div class="step"><div class="dot">3</div><div><h3>内容打法：让用户替品牌完成传播</h3><p class="muted">开箱、晒包、排队、真假辨别、隐藏款展示，都是用户天然会拍的内容。品牌需要做的是持续给“可拍素材”。</p></div></div>
+          <div class="step"><div class="dot">4</div><div><h3>组织能力：从经销探索转向区域直营和供应链扩容</h3><p class="muted">海外收入暴涨后，缺货、假货和履约都会成为品牌体验问题，生产伙伴和区域运营能力会决定热度能否留住。</p></div></div>
+        </div>
+      </div>
+      <div class="card span-5">
+        <h2>渠道漏斗</h2>
+        <h3>TikTok / Instagram 种草</h3>
+        <div class="bar"><span style="width:88%"></span></div>
+        <p class="muted">以用户晒图、明星同款、开箱和排队内容触发兴趣。</p>
+        <h3>官网 / App / 门店转化</h3>
+        <div class="bar"><span style="width:74%"></span></div>
+        <p class="muted">新品上架、限量款和门店库存驱动即时购买。</p>
+        <h3>收藏 / 二创 / 社群复购</h3>
+        <div class="bar"><span style="width:67%"></span></div>
+        <p class="muted">系列化和隐藏款让用户从单次购买进入持续追新。</p>
+        <h3>风险控制</h3>
+        <div class="bar"><span style="width:48%"></span></div>
+        <p class="muted">当二级市场降温、假货增多或单一 IP 疲劳时，增长质量会被重新定价。</p>
+      </div>
+    </section>
+
+    <section class="section grid">
+      <div class="card span-6">
+        <h2>可复用打法</h2>
+        <div class="playbook">
+          <div class="action"><strong>把产品做成“可展示身份”。</strong> 出海消费品牌不要只讲功能，要设计让用户愿意拍照、挂身上、放桌面、发社媒的外显符号。</div>
+          <div class="action"><strong>新品节奏要系列化。</strong> 不要每次都从零教育用户，用固定 IP、固定系列、固定发售周期降低复购决策成本。</div>
+          <div class="action"><strong>线下不是只卖货。</strong> 快闪、门店、展陈和排队本身可以变成内容素材，尤其适合客单不高但情绪价值强的品类。</div>
+          <div class="action"><strong>让 UGC 有固定模板。</strong> 开箱、对比、隐藏款、搭配、真假辨别、收藏墙，都是可复制的用户内容框架。</div>
+          <div class="action"><strong>爆品后立刻补矩阵。</strong> 一个超级单品可以破圈，但长期估值来自第二、第三条增长曲线。</div>
+        </div>
+      </div>
+      <div class="card span-6">
+        <h2>风险与边界</h2>
+        <p><strong>不能盲目照搬盲盒。</strong> 很多品类没有收藏心智和系列化空间，硬做稀缺只会伤害信任。</p>
+        <p><strong>爆品越强，供应链越要稳。</strong> 缺货能制造热度，但长期缺货会把需求转给黄牛和假货。</p>
+        <p><strong>海外文化接受度需要本地验证。</strong> 可爱、怪诞、潮流符号在不同市场的阈值不同，门店选址、联名对象和社媒内容都要本地化。</p>
+        <p><strong>IP 公司不是 SKU 公司。</strong> 真正难点在角色资产、故事、艺术家合作和用户关系，而不是把更多款式推上架。</p>
+      </div>
+    </section>
+
+    <section class="section grid">
+      <div class="card span-12">
+        <h2>今日行动清单</h2>
+        <div class="grid">
+          <div class="span-4"><h3>1. 找一个可外显的品牌符号</h3><p class="muted">把你的产品拆成“用户愿意晒出来的 1 个视觉记忆点”，不要只优化详情页卖点。</p></div>
+          <div class="span-4"><h3>2. 设计一套 UGC 模板</h3><p class="muted">给达人和真实用户明确内容钩子：开箱、使用前后、搭配、隐藏彩蛋、收藏进度。</p></div>
+          <div class="span-4"><h3>3. 做小规模发售测试</h3><p class="muted">用限定颜色、地区限定或节日款测试稀缺策略，观察复购、转发和客诉，而不是只看售罄速度。</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section card">
+      <h2>来源</h2>
+      <ul class="sources">
+        <li><a href="https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0325/2026032500285.pdf">POP MART 2025 annual results announcement, HKEX</a>，访问日期：2026-06-26。</li>
+        <li><a href="https://www.popmart.com/us/investor-relations">POP MART Investor Relations</a>，访问日期：2026-06-26。</li>
+        <li><a href="https://www.chinadaily.com.cn/a/202604/09/WS69d70204a310d6866eb42647.html">China Daily: Pop Mart posts revenue, profit jump in 2025</a>，访问日期：2026-06-26。</li>
+        <li><a href="https://apnews.com/article/labubu-pop-mart-china-shares-earnings-0b0cfc1a1bde2ea5502a0e6479b8702e">AP News: Pop Mart shares sink despite revenue surge</a>，访问日期：2026-06-26。</li>
+        <li><a href="https://www.globaltimes.cn/page/202508/1341308.shtml">Global Times: Pop Mart global expansion plan</a>，访问日期：2026-06-26。</li>
+        <li><a href="https://www.spglobal.com/market-intelligence/en/news-insights/research/pop-mart-s-viral-collectibles-to-fuel-overseas-revenue-surge">S&P Global Market Intelligence: Pop Mart viral collectibles</a>，访问日期：2026-06-26。</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
