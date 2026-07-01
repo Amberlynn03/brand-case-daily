@@ -2,6 +2,9 @@
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="每日更新的出海品牌深度案例库">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 64 64%22><rect width=%2264%22 height=%2264%22 rx=%2212%22 fill=%22%23111111%22/><path d=%22M18 16h18c9 0 14 4 14 11 0 5-3 8-7 9 5 1 8 5 8 10 0 8-6 12-15 12H18V16zm10 9v8h7c4 0 6-1 6-4s-2-4-6-4h-7zm0 16v8h8c4 0 6-1 6-4s-2-4-6-4h-8z%22 fill=%22white%22/></svg>">
@@ -85,8 +88,17 @@
     <div class="empty" id="empty">没有找到匹配的案例，换个关键词试试。</div>
   </main>
   <footer><span>出海品牌案例库</span><span>资料来自公开来源，仅供研究与学习</span></footer>
-  <script src="cases.js"></script>
   <script>
+    const dataScript = document.createElement("script");
+    dataScript.src = `cases.js?v=${Date.now()}`;
+    dataScript.onload = init;
+    dataScript.onerror = () => {
+      document.querySelector("#empty").textContent = "案例数据加载失败，请稍后刷新重试。";
+      document.querySelector("#empty").style.display = "block";
+    };
+    document.head.appendChild(dataScript);
+
+    function init() {
     const cases = [...window.BRAND_CASES].sort((a,b) => b.date.localeCompare(a.date));
     const $ = s => document.querySelector(s);
     const fmt = d => new Intl.DateTimeFormat("zh-CN",{year:"numeric",month:"long",day:"numeric"}).format(new Date(d+"T00:00:00"));
@@ -116,6 +128,7 @@
     $("#search").addEventListener("input",render);
     $("#filters").addEventListener("click",e=>{if(!e.target.matches(".filter"))return;active=e.target.dataset.category;document.querySelectorAll(".filter").forEach(b=>b.classList.toggle("active",b===e.target));render()});
     render();
+    }
   </script>
 </body>
 </html>
