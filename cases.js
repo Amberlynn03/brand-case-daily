@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "hismile",
+    date: "2026-07-01",
+    brand: "Hismile",
+    category: "口腔护理",
+    market: "澳大利亚 / 全球",
+    tags: ["感官重写", "联名内容", "套装承接"],
+    summary: "Hismile 没有先把牙膏讲得更专业，而是用口味、颜色、联名和可拍的功效演示让用户愿意讨论刷牙，再用 V34、PAP+ 与 Starter Bundle 把尝鲜引向稳定的例行程序。",
+    insight: "低参与度品类的增长，常常先来自更低的体验进入门槛，而不是更强的专业教育。",
+    report: "reports/2026-07-01-hismile.html",
+    accent: "#ff6aa7",
+    cover: ""
+  },
+  {
     slug: "graza",
     date: "2026-06-30",
     brand: "Graza",
