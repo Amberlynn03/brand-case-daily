@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "wild",
+    date: "2026-07-02",
+    brand: "Wild",
+    category: "个护消费品",
+    market: "英国 / 美国",
+    tags: ["可持续包装", "订阅补货", "零售放大"],
+    summary: "Wild 没有先把环保讲成责任，而是先把除臭剂做成愿意摆出来的生活方式配件，再用可换香型的 refill、可调订阅、联名内容和 Target 渠道把减塑行为变成更顺手的日常习惯。",
+    insight: "可持续品牌破圈，往往不是靠说服用户牺牲，而是把更好的行为包装成更想要的升级体验。",
+    report: "reports/2026-07-02-wild.html",
+    accent: "#88d498",
+    cover: ""
+  },
+  {
     slug: "hismile",
     date: "2026-07-01",
     brand: "Hismile",
