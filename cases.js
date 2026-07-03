@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "olipop",
+    date: "2026-07-03",
+    brand: "OLIPOP",
+    category: "功能饮料",
+    market: "美国",
+    tags: ["怀旧口味", "创作者营销", "零售放大"],
+    summary: "OLIPOP 没有把功能汽水讲成营养课，而是先保留怀旧口味、好看包装和想喝汽水的快乐，再用低糖高纤、创作者内容、订阅和零售覆盖把“更好替代”做成更容易试也更容易顺手买的日常选择。",
+    insight: "更好替代型品牌要先守住原品类的快乐，再把功能、渠道和归因围绕这层快乐重组。",
+    report: "reports/2026-07-03-olipop.html",
+    accent: "#ff935c",
+    cover: ""
+  },
+  {
     slug: "wild",
     date: "2026-07-02",
     brand: "Wild",
