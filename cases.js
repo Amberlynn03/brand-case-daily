@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "air-up",
+    date: "2026-07-05",
+    brand: "air up",
+    category: "智能水具",
+    market: "德国 / 英国 / 美国",
+    tags: ["感官创新", "创作者种草", "全渠道习惯"],
+    summary: "air up 没有把喝水讲成自律任务，而是用气味驱动的“有味白水”、反应型创作者内容、Starter Set 承接和零售铺货，把原本无聊的补水行为改造成更容易尝试、分享和复购的日常习惯。",
+    insight: "当品类教育成本过高时，先把体验做成愿意试和愿意晒的行为，再用渠道把新奇感沉淀成习惯。",
+    report: "reports/2026-07-05-air-up.html",
+    accent: "#66d6df",
+    cover: ""
+  },
+  {
     slug: "olipop",
     date: "2026-07-03",
     brand: "OLIPOP",
