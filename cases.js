@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "blueland",
+    date: "2026-07-06",
+    brand: "Blueland",
+    category: "家居清洁",
+    market: "美国",
+    tags: ["补充装系统", "环保转译", "零售放大"],
+    summary: "Blueland 没有把环保清洁讲成牺牲与责任，而是用可重复使用的 Forever 瓶、补充片、套装承接、创作者推荐和 Target 放大，把“少用一次性塑料”翻译成更省脑、更顺手、也更容易坚持的家庭清洁习惯。",
+    insight: "可持续品牌要想破圈，关键不是把理念讲得更重，而是把切换动作做得更轻、更默认。",
+    report: "reports/2026-07-06-blueland.html",
+    accent: "#6acfc7",
+    cover: ""
+  },
+  {
     slug: "air-up",
     date: "2026-07-05",
     brand: "air up",
