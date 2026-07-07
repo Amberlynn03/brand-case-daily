@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "our-place",
+    date: "2026-07-07",
+    brand: "Our Place",
+    category: "家居厨具",
+    market: "美国",
+    tags: ["英雄 SKU", "生活方式内容", "零售分工"],
+    summary: "Our Place 没有把厨具讲成一整套专业配置，而是先用 Always Pan 这样的英雄单品压缩选择负担，再用色彩审美、菜谱内容、创作者厨房、套装升级和 DTC/零售分工，把下厨翻译成更愿意开始、分享和送礼的生活方式场景。",
+    insight: "复杂耐用品破圈，往往先靠一个最省脑的英雄入口，再靠内容和渠道把它扩成整套生活方式。",
+    report: "reports/2026-07-07-our-place.html",
+    accent: "#e78d63",
+    cover: ""
+  },
+  {
     slug: "blueland",
     date: "2026-07-06",
     brand: "Blueland",
