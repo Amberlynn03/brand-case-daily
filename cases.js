@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "beis",
+    date: "2026-07-08",
+    brand: "BÉIS",
+    category: "旅行用品",
+    market: "美国",
+    tags: ["功能演示", "创作者脚本", "零售分工"],
+    summary: "BÉIS 没有把行李箱讲成更贵的专业装备，而是先抓住超重、鞋衣混装、随身包难挂和短途出行收纳混乱这些高频狼狈时刻，再用产品细节、Founder demo、pack-with-me 内容、快闪体验和 DTC/零售分工，把旅行用品做成更省脑也更愿意分享的出发系统。",
+    insight: "高客单功能品要想破圈，先把用户最狼狈的 10 秒钟做成一眼能懂的解决方案，再让内容和渠道围绕它放大。",
+    report: "reports/2026-07-08-beis.html",
+    accent: "#f2c66d",
+    cover: ""
+  },
+  {
     slug: "our-place",
     date: "2026-07-07",
     brand: "Our Place",
