@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "dr-squatch",
+    date: "2026-07-10",
+    brand: "Dr. Squatch",
+    category: "个护消费品",
+    market: "美国",
+    tags: ["幽默创意", "订阅承接", "零售扩张"],
+    summary: "Dr. Squatch 没把男士个护讲成一堂成分课，而是先用粗犷香型、夸张幽默、创作者段子、Starter Bundle、灵活订阅和零售扩张，把原本低参与的洗澡动作改写成更愿意尝试、送礼、讨论和复购的日常娱乐系统。",
+    insight: "低参与品类破圈，先别教育用户变专业，先把他愿意开口谈、愿意试一次的入口做出来。",
+    report: "reports/2026-07-10-dr-squatch.html",
+    accent: "#8cc36f",
+    cover: ""
+  },
+  {
     slug: "beis",
     date: "2026-07-08",
     brand: "BÉIS",
