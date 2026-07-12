@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "liquid-death",
+    date: "2026-07-12",
+    brand: "Liquid Death",
+    category: "饮料消费品",
+    market: "美国 / 英国",
+    tags: ["娱乐化品牌", "会员积分", "零售放大"],
+    summary: "Liquid Death 没把水讲成更纯净的健康任务，而是先用重金属视觉、恶搞内容、merch、Skulls 积分、Amazon 补货、场馆合作和大零售铺货，把最无聊的饮用品类改写成一个能被讨论、被拿在手里、也能被持续复购的娱乐消费品牌。",
+    insight: "越基础、越同质化的品类，越要先重写品类语气，再把官网、会员、零售和补货链路接成同一个世界观。",
+    report: "reports/2026-07-12-liquid-death.html",
+    accent: "#ff5a3d",
+    cover: ""
+  },
+  {
     slug: "dr-squatch",
     date: "2026-07-10",
     brand: "Dr. Squatch",
