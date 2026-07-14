@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "magic-spoon",
+    date: "2026-07-14",
+    brand: "Magic Spoon",
+    category: "早餐消费品",
+    market: "美国",
+    tags: ["怀旧重写", "订阅承接", "零售放大"],
+    summary: "Magic Spoon 没把高蛋白低糖麦片讲成自律早餐，而是先用童年口味、喜剧短视频、筛选型寄样、灵活订阅、限定口味和零售扩张，把一盒高价麦片改写成能被讨论、复购并走进货架的成年零食早餐品牌。",
+    insight: "想卖贵的健康替代品，先别让用户感觉自己在牺牲；先把羞耻感改成怀旧快感，再用订阅和零售接住。",
+    report: "reports/2026-07-14-magic-spoon.html",
+    accent: "#6ec5ff",
+    cover: ""
+  },
+  {
     slug: "liquid-death",
     date: "2026-07-12",
     brand: "Liquid Death",
