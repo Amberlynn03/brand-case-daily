@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "ruggable",
+    date: "2026-07-20",
+    brand: "Ruggable",
+    category: "家居家装",
+    market: "美国 / 英国 / 德国",
+    tags: ["场景转译", "创作者营销", "零售承接"],
+    summary: "Ruggable 没有先把地毯讲成昂贵的家居审美升级，而是先用可机洗、可替换结构、真实家庭内容、持续联名、首单优惠和 Target 等零售触点，把“怕脏怕后悔”的高客单决策改写成更敢买、更敢铺、也更容易复购的家装系统。",
+    insight: "高客单耐用品要破圈，先别强化梦想画面，先把用户最怕的买后事故处理掉；用户一旦敢用，审美和联名才有增长价值。",
+    report: "reports/2026-07-20-ruggable.html",
+    accent: "#bd7d4f",
+    cover: ""
+  },
+  {
     slug: "magic-spoon",
     date: "2026-07-14",
     brand: "Magic Spoon",
