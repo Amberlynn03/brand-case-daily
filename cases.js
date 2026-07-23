@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "bloom-nutrition",
+    date: "2026-07-23",
+    brand: "Bloom Nutrition",
+    category: "女性健康消费品",
+    market: "美国",
+    tags: ["创作者飞轮", "组合装承接", "零售放大"],
+    summary: "Bloom Nutrition 没把女性营养补剂讲成一堂难坚持的成分课，而是先用创始人转变叙事、好入口味、创作者自由脚本、组合装、积分和 Target / Walmart 扩张，把“总想变健康却总坚持不下去”改写成更容易尝试、复购和顺手补货的日常系统。",
+    insight: "高频但难坚持的品类，先别加重教育负担，先把口感、情绪认同和创作者可复述性做好，再用官网关系资产和零售便利性接住。",
+    report: "reports/2026-07-23-bloom-nutrition.html",
+    accent: "#ff7cb1",
+    cover: ""
+  },
+  {
     slug: "ruggable",
     date: "2026-07-20",
     brand: "Ruggable",
