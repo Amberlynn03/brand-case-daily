@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "caraway",
+    date: "2026-07-24",
+    brand: "Caraway",
+    category: "家居厨具",
+    market: "美国",
+    tags: ["非毒性叙事", "套装承接", "全渠道放大"],
+    summary: "Caraway 没把厨具升级讲成一堂复杂的材料课，而是先用非毒性承诺、整套收纳、颜色审美、创作者长期合作、测验与套装承接，再配合 Target、Amazon 和 Walmart 等渠道分工，把“想换锅但嫌麻烦”的家庭决策改写成更容易理解、下单和放大的现代厨房系统。",
+    insight: "高客单家庭耐用品别先卖参数，先把风险焦虑、空间秩序和审美表达压缩成一套人人能复述的升级理由，再用官网与零售分工接住。",
+    report: "reports/2026-07-24-caraway.html",
+    accent: "#d76c45",
+    cover: ""
+  },
+  {
     slug: "bloom-nutrition",
     date: "2026-07-23",
     brand: "Bloom Nutrition",
