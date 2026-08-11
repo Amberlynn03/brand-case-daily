@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "pura",
+    date: "2026-08-11",
+    brand: "Pura",
+    category: "家居香氛 / 智能硬件",
+    market: "美国",
+    tags: ["硬件耗材一体", "订阅积分", "零售补货"],
+    summary: "Pura 没把家居香氛停留在一次性礼物消费，而是先用智能扩香器、App 定时、洁净安全承诺、品牌香型合作、订阅积分和 Target / Amazon 渠道分工，把“偶尔想让家里好闻一点”的低频需求，改写成更容易尝试、复购和顺手补货的空间情绪系统。",
+    insight: "当品类既需要溢价又需要复购时，先别卷单个 SKU，先把主机、耗材、软件和补货机制串成一条默认运行的关系链。",
+    report: "reports/2026-08-11-pura.html",
+    accent: "#76d0d7",
+    cover: ""
+  },
+  {
     slug: "caraway",
     date: "2026-07-24",
     brand: "Caraway",
