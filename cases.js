@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "oura",
+    date: "2026-08-27",
+    brand: "Oura",
+    category: "健康穿戴 / 智能硬件",
+    market: "美国 / 欧洲 / 全球",
+    tags: ["会员订阅", "口碑裂变", "零售扩张"],
+    summary: "Oura 没把智能戒指卖成一块更小的手表，而是先用无屏佩戴、睡眠恢复分数、会员订阅、App AI 指导、口碑推荐和 Best Buy 零售承接，把“我想更懂身体但不想被设备打扰”改写成可长期续费的健康日常系统。",
+    insight: "连续监测型硬件想做大众市场，先别堆更多实时提醒，先把复杂信号压缩成每天都能执行的一条建议，再把会员和口碑绑到同一条关系链里。",
+    report: "reports/2026-08-27-oura.html",
+    accent: "#7d88ff",
+    cover: ""
+  },
+  {
     slug: "pura",
     date: "2026-08-11",
     brand: "Pura",
