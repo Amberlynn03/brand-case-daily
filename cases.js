@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "jolie",
+    date: "2026-08-31",
+    brand: "Jolie",
+    category: "美妆个护 / 家居硬件",
+    market: "美国 / 加拿大",
+    tags: ["新品类教育", "创作者种草", "滤芯订阅"],
+    summary: "Jolie 没把过滤花洒卖成一件更高级的浴室五金，而是先用 Step Zero 叙事、Water Report 自查、创作者种草、滤芯订阅和 DTC/零售分工，把“总觉得护发护肤没效果，却不知道问题可能出在水”的模糊焦虑，改写成一个更容易理解、尝试、复购和顺手补货的美容硬件系统。",
+    insight: "当你卖的是一个用户长期感受到结果、却没把原因归给你的问题时，先纠正错误归因，再用自查入口、低风险尝试和复购机制把新品类真正立住。",
+    report: "reports/2026-08-31-jolie.html",
+    accent: "#56c3d6",
+    cover: ""
+  },
+  {
     slug: "lmnt",
     date: "2026-08-30",
     brand: "LMNT",
