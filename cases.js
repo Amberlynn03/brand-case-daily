@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "manscaped",
+    date: "2026-09-01",
+    brand: "MANSCAPED",
+    category: "男士个护 / 消费硬件",
+    market: "美国 / 英国 / 加拿大 / 全球",
+    tags: ["幽默品牌化", "会员积分", "全渠道分工"],
+    summary: "MANSCAPED 没把男士体毛护理讲成一堂严肃的卫生课，而是先用带羞耻感的细分切口、统一命名、夸张幽默创意、套装承接、VIP 会员和 Amazon/零售积分回流，把“低参与、尴尬、只在临时需要时才想起”的男士个护，改写成一个能被记住、顺手下单并持续补货的全渠道品牌系统。",
+    insight: "当用户不是没有需求，而是不想被认真教育时，先用文化语气和高记忆点帮他开口，再用套装、会员和跨渠道回流把关系真正留住。",
+    report: "reports/2026-09-01-manscaped.html",
+    accent: "#f58a3b",
+    cover: ""
+  },
+  {
     slug: "jolie",
     date: "2026-08-31",
     brand: "Jolie",
