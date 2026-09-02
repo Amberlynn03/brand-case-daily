@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "duolingo",
+    date: "2026-09-02",
+    brand: "Duolingo",
+    category: "教育 SaaS / 内容平台 / AI 学习产品",
+    market: "美国 / 欧洲 / 拉美 / 全球",
+    tags: ["角色内容", "免费转付费", "AI 升级"],
+    summary: "Duolingo 没把语言学习卖成一门更严肃的课，而是先用角色内容、超短练习、连胜提醒、免费体验、Family Plan 和 Max，把“我知道该学，但总坚持不下去”的自律冲突，改写成一个更愿意天天回来、再逐步升级付费和 AI 辅导的学习平台。",
+    insight: "当用户失败点不是不知道价值，而是每天回不来时，先把回访动作做轻、做短、做有人格，再把更顺滑的体验和更强反馈设计成逐级付费理由。",
+    report: "reports/2026-09-02-duolingo.html",
+    accent: "#58cc02",
+    cover: ""
+  },
+  {
     slug: "manscaped",
     date: "2026-09-01",
     brand: "MANSCAPED",
