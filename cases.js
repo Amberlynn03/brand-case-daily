@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "canva",
+    date: "2026-09-03",
+    brand: "Canva",
+    category: "设计 SaaS / 内容平台 / AI 工作流",
+    market: "澳大利亚 / 美国 / 欧洲 / 全球",
+    tags: ["模板入口", "创作者生态", "品牌管理"],
+    summary: "Canva 没把设计软件卖成一套更专业的工具栈，而是先用模板、教程、创作者供给、Brand Kit 和 AI 工作流，把“每个团队都要做内容，但多数人既不会设计也不想先学软件”的矛盾，改写成一个先能发出来、再能团队化和品牌化扩张的全球内容生产系统。",
+    insight: "当用户真正抗拒的不是价值，而是上手摩擦时，先把第一次产出做成几乎不需要训练的任务，再用模板复用、团队控制和 AI 压缩，逐层把免费动作升级成组织级预算。",
+    report: "reports/2026-09-03-canva.html",
+    accent: "#00c4cc",
+    cover: ""
+  },
+  {
     slug: "duolingo",
     date: "2026-09-02",
     brand: "Duolingo",
