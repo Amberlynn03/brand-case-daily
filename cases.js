@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "who-gives-a-crap",
+    date: "2026-09-06",
+    brand: "Who Gives A Crap",
+    category: "家清消费品 / DTC 订阅 / 社会企业",
+    market: "澳大利亚 / 美国 / 英国 / 加拿大 / 欧洲",
+    tags: ["幽默品牌化", "灵活订阅", "影响力消费"],
+    summary: "Who Gives A Crap 没把环保厕纸卖成一堂道德课，而是先用厕所幽默、彩色包装、大箱单位成本、灵活订阅、推荐奖励和可核验的 50% 利润捐赠，把“高频刚需却只比价格”的低关注品类，改写成可展示、可复购、可传播的影响力消费系统。",
+    insight: "当使命型产品同时面临溢价、信任和使用门槛时，先让产品体验、风险逆转和补货机制独立成立，再让可验证的社会影响成为复购与推荐的放大器。",
+    report: "reports/2026-09-06-who-gives-a-crap.html",
+    accent: "#ff6685",
+    cover: ""
+  },
+  {
     slug: "canva",
     date: "2026-09-03",
     brand: "Canva",
