@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "eight-sleep",
+    date: "2026-09-07",
+    brand: "Eight Sleep",
+    category: "智能硬件 / 睡眠科技 / 订阅软件",
+    market: "美国 / 欧洲 / 澳大利亚 / 中东 / 亚洲部分市场",
+    tags: ["Sleep Fitness", "双区温控", "硬件订阅"],
+    summary: "Eight Sleep 没把睡眠科技停在记录分数，而是用双区温控、Autopilot 夜间执行、晨间反馈、运动员内容与会员保修，把“睡眠越要无感、昂贵硬件越需证明价值”的矛盾改写成持续运行的恢复系统。",
+    insight: "当高客单硬件还需要持续订阅时，首单价值必须由立刻可体验的物理变化承担，续费价值则要由自动执行、持续反馈和服务保障逐月兑现。",
+    report: "reports/2026-09-07-eight-sleep.html",
+    accent: "#3977ff",
+    cover: ""
+  },
+  {
     slug: "who-gives-a-crap",
     date: "2026-09-06",
     brand: "Who Gives A Crap",
