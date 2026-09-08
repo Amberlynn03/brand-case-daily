@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "ridge",
+    date: "2026-09-08",
+    brand: "Ridge",
+    category: "随身配件 / 消费硬件 / DTC",
+    market: "美国 / 加拿大 / 英国 / 欧洲 / 澳大利亚",
+    tags: ["英雄 SKU", "演示型内容", "终身保修"],
+    summary: "Ridge 没把钱包继续卖成皮革与身份符号，而是用刚性双板、薄钱包演示、材料版本、99 天退货与终身保修，把“旧钱包还能用、升级又怕是智商税”的矛盾，改写成一场能被镜头证明、能被礼赠放大并向 EDC 延展的随身升级。",
+    insight: "当成熟耐用品缺少换新理由时，先把旧方案的隐性摩擦拍成一帧，再让英雄结构、风险逆转和版本梯度分别承担理解、下单与客单增长。",
+    report: "reports/2026-09-08-ridge.html",
+    accent: "#5a7dff",
+    cover: ""
+  },
+  {
     slug: "eight-sleep",
     date: "2026-09-07",
     brand: "Eight Sleep",
