@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "hexclad",
+    date: "2026-09-09",
+    brand: "HexClad",
+    category: "高端厨具 / DTC / 全渠道",
+    market: "美国 / 加拿大 / 英国 / 欧洲 / 澳大利亚 / 日本 / 中东",
+    tags: ["混合技术", "名厨信任", "演示型零售"],
+    summary: "HexClad 用六边形混合表面、Gordon Ramsay 长期伙伴关系、演示内容、套装与授权零售，把家庭用户在不粘、铸铁与不锈钢之间的取舍，改写成一眼能懂、敢于试用并愿意整厨升级的高端厨具系统。",
+    insight: "成熟品类的创新若难以解释，就把技术差异做成肉眼可见、动作可证的结构，再让权威、家庭达人、套装和线下演示分别承担信任、理解、客单与体验。",
+    report: "reports/2026-09-09-hexclad.html",
+    accent: "#db6f3d",
+    cover: ""
+  },
+  {
     slug: "ridge",
     date: "2026-09-08",
     brand: "Ridge",
