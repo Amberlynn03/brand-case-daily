@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "poppi",
+    date: "2026-09-10",
+    brand: "Poppi",
+    category: "功能汽水 / 消费品 / 全渠道",
+    market: "美国 / 英国 / 国际扩张",
+    tags: ["社交原生", "低糖汽水", "零售规模化"],
+    summary: "Poppi 没把益生元汽水卖成一堂健康课，而是用经典口味、鲜艳罐身、创始人内容、创作者与全国零售，先恢复喝汽水的许可感，再用低糖和配方信息降低负担，把社交声量接到随处可买的日常选择。",
+    insight: "功能消费品要进入主流，先保留旧品类的欲望与场景，再把功能证据压缩成降低犹豫的第二层信息，并让内容声量与实体可得性同步增长。",
+    report: "reports/2026-09-10-poppi.html",
+    accent: "#ff4f91",
+    cover: ""
+  },
+  {
     slug: "hexclad",
     date: "2026-09-09",
     brand: "HexClad",
