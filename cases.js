@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "ember",
+    date: "2026-09-12",
+    brand: "Ember",
+    category: "智能硬件 / 咖啡器具 / 礼赠",
+    market: "美国 / 国际零售",
+    tags: ["温控场景", "创作者演示", "礼赠承接"],
+    summary: "Ember 把智能杯从参数竞赛转向被打断的咖啡时刻，用主动温控、居家办公内容、礼赠导购和零售触达解释溢价，再以配件延伸使用场景；同时提醒硬件品牌，续航与售后口径的一致性也是转化的一部分。",
+    insight: "高价日用硬件先证明一个被反复打断的时刻值得修复，再让内容、导购与服务围绕同一场景兑现承诺。",
+    report: "reports/2026-09-12-ember.html",
+    accent: "#d57747",
+    cover: ""
+  },
+  {
     slug: "poppi",
     date: "2026-09-10",
     brand: "Poppi",
