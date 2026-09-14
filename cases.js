@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "birdbuddy",
+    date: "2026-09-14",
+    brand: "Birdbuddy",
+    category: "智能硬件 / 自然观察 / 家庭订阅",
+    market: "北美 / 欧洲",
+    tags: ["自然明信片", "社区共创", "家庭共享"],
+    summary: "Birdbuddy 把智能喂鸟器从相机参数转向自然明信片，用自动筛选、图鉴收藏、社区影像与家庭共享，让偶然来访变成持续关系；通过安装引导和免费付费边界，揭示硬件品牌从首单转化走向真实激活的增长难题。",
+    insight: "先把技术结果做成值得打开和分享的日常内容，再用适配筛查、激活支持与清晰权益兑现长期关系。",
+    report: "reports/2026-09-14-birdbuddy.html",
+    accent: "#c35b36",
+    cover: ""
+  },
+  {
     slug: "ember",
     date: "2026-09-12",
     brand: "Ember",
