@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "tonies",
+    date: "2026-09-15",
+    brand: "tonies",
+    category: "儿童音频 / 智能硬件 / 内容生态",
+    market: "德国 / 北美 / 欧洲 / 澳新",
+    tags: ["儿童自主", "内容复购", "实体交互"],
+    summary: "tonies 把家长减少屏幕与孩子自主娱乐的冲突，转成放上角色就能听的实体音频体验；以熟悉 IP、家庭录音、自选组合和零售触达，连接设备首购与内容补充，同时揭示授权成本、季节性备货和利润边界。",
+    insight: "先把内容选择做成使用者能自己完成的动作，再用持续内容和清晰的首购路径经营长期关系。",
+    report: "reports/2026-09-15-tonies.html",
+    accent: "#db503c",
+    cover: ""
+  },
+  {
     slug: "birdbuddy",
     date: "2026-09-14",
     brand: "Birdbuddy",
