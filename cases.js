@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "liquid-death",
+    date: "2026-09-16",
+    brand: "Liquid Death",
+    category: "饮料 / DTC / 全渠道",
+    market: "美国 / 英国 / 全球电商",
+    tags: ["商品媒介化", "反常识包装", "低糖替代"],
+    summary: "Liquid Death 把一罐水做成可传播的身份道具，用高罐、黑色幽默、娱乐内容和零售铺货，让健康替代不再像说教；再沿同一冲突扩展冰茶、苏打风味气泡水和能量饮，同时揭示渠道成本与文化边界。",
+    insight: "平凡品类先制造能被复述的冲突，再把注意力接到真实可买的渠道和可验证的产品证据。",
+    report: "reports/2026-09-16-liquid-death.html",
+    accent: "#85ff2a",
+    cover: ""
+  },
+  {
     slug: "tonies",
     date: "2026-09-15",
     brand: "tonies",
