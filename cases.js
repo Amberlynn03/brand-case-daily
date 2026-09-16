@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "anker",
+    date: "2026-09-17",
+    brand: "Anker",
+    category: "中国出海 / 充电 / 智能硬件",
+    market: "全球 / 北美 / 欧洲 / 日本",
+    tags: ["高频痛点", "Amazon起盘", "品牌统一"],
+    summary: "Anker 先用充电焦虑这个高频小痛点，在 Amazon 评价、兼容性和售后中建立信任；再把 PowerIQ、GaNPrime 等技术翻译成可复述的安全与效率承诺，扩展到音频、家庭能源、安防和创作工具。",
+    insight: "硬件出海不要先讲生态，先用一个失败成本高的小场景证明可靠，再让信任沿用户的一天逐步迁移。",
+    report: "reports/2026-09-17-anker.html",
+    accent: "#2e72ff",
+    cover: ""
+  },
+  {
     slug: "liquid-death",
     date: "2026-09-16",
     brand: "Liquid Death",
