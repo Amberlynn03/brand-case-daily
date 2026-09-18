@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "gymshark",
+    date: "2026-09-18",
+    brand: "Gymshark",
+    category: "运动服饰 / DTC / 社区品牌",
+    market: "英国 / 美国 / 全球电商",
+    tags: ["运动员共创", "Drop节奏", "社区零售"],
+    summary: "Gymshark 不把运动服只卖成功能面料，而是用真实训练者、限时 Drop、App 早鸟权益、XP 会员和免费训练活动，把健身中的孤独与自我怀疑转成可加入、可展示、可反复参与的社区身份。",
+    insight: "社区品牌的护城河不是粉丝数，而是让内容、商品、会员与线下活动都奖励同一种真实行为。",
+    report: "reports/2026-09-18-gymshark.html",
+    accent: "#66e38f",
+    cover: ""
+  },
+  {
     slug: "anker",
     date: "2026-09-17",
     brand: "Anker",
