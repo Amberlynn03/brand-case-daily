@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "casetify",
+    date: "2026-09-19",
+    brand: "CASETiFY",
+    category: "科技配件 / DTC / IP联名",
+    market: "中国香港 / 美国 / 日本 / 全球电商",
+    tags: ["个性定制", "Co-Lab联名", "门店体验"],
+    summary: "CASETiFY 把容易同质化的手机壳变成一块随身身份画布，用文字照片定制、限量 IP 联名、社媒镜像传播与门店即时制作承接表达欲，再用防摔证据和回收计划为溢价补上功能与责任。",
+    insight: "低门槛商品要获得高溢价，关键不是增加更多图案，而是把用户表达、文化节点和购买体验连接成持续更新的理由。",
+    report: "reports/2026-09-19-casetify.html",
+    accent: "#ff5a36",
+    cover: ""
+  },
+  {
     slug: "gymshark",
     date: "2026-09-18",
     brand: "Gymshark",
