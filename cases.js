@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "notion",
+    date: "2026-09-20",
+    brand: "Notion",
+    category: "生产力 SaaS / 模板市场 / AI 工作空间",
+    market: "美国 / 日本 / 韩国 / 欧洲 / 全球",
+    tags: ["模板冷启动", "创作者分发", "个人到团队"],
+    summary: "Notion 没把可组合工作空间卖成一套需要先学习的复杂软件，而是用模板、创作者教程、免费个人使用和本地社区让用户先复制出结果，再通过协作、权限、AI 与企业治理把个人习惯扩成团队预算。",
+    insight: "复杂工具全球化的关键不是把功能讲得更全，而是让本地用户先看见一个能复制的结果，再逐步承担搭建者角色。",
+    report: "reports/2026-09-20-notion.html",
+    accent: "#f05b41",
+    cover: ""
+  },
+  {
     slug: "casetify",
     date: "2026-09-19",
     brand: "CASETiFY",
