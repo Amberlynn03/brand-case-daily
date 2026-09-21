@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "suri",
+    date: "2026-09-22",
+    brand: "SURI",
+    category: "口腔护理 / 消费硬件 / 订阅补充",
+    market: "英国 / 美国 / 欧洲 / 全球电商",
+    tags: ["浴室场景", "可维修设计", "刷头订阅"],
+    summary: "SURI 没把可持续电动牙刷卖成一次环保牺牲，而是先用纤薄铝机身、磁吸镜架、长续航与旅行清洁盒解决浴室和出行摩擦，再用植物基刷头、灵活订阅、免费回收与维修把首购延伸成长期关系。",
+    insight: "可持续硬件要先成为更好用的日常选择，再把材料、维修和回收设计成用户真正能完成的动作。",
+    report: "reports/2026-09-22-suri.html",
+    accent: "#6e8f78",
+    cover: ""
+  },
+  {
     slug: "notion",
     date: "2026-09-20",
     brand: "Notion",
