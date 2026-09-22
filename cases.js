@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "loop-earplugs",
+    date: "2026-09-23",
+    brand: "Loop Earplugs",
+    category: "听力防护 / 可穿戴配件 / DTC",
+    market: "比利时 / 美国 / 英国 / 全球",
+    tags: ["场景化SKU", "配件时尚化", "试戴教育"],
+    summary: "Loop 没把耳塞卖成只在噪声危险时才想起的防护耗材，而是按演出、社交、睡眠、专注与全天切换拆分产品，用环形外观、颜色联名、选择工具和百日试戴，把羞耻感与选型焦虑转成可佩戴、可分享的日常控制权。",
+    insight: "低关注功能品要进入日常，先按用户想保留什么声音划分场景，再让外观、试用与渠道共同降低第一次佩戴的心理成本。",
+    report: "reports/2026-09-23-loop-earplugs.html",
+    accent: "#ff5c8a",
+    cover: ""
+  },
+  {
     slug: "suri",
     date: "2026-09-22",
     brand: "SURI",
