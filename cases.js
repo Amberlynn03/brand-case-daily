@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "back-market",
+    date: "2026-09-24",
+    brand: "Back Market",
+    category: "翻新电子 / 双边市场 / 循环经济",
+    market: "法国 / 美国 / 英国 / 德国 / 全球17个市场",
+    tags: ["信任标准化", "卖家治理", "以旧换新"],
+    summary: "Back Market 没把翻新电子只卖成便宜替代，而是用专业卖家准入、质量章程、成色与电池标准、百项检测、30天退货和一年保修，把来源不明、货不对板与售后扯皮拆成可比较、可追责的购买承诺。",
+    insight: "平台型品牌的真正产品不是商品列表，而是一套让陌生供给稳定兑现同一承诺的准入、排序、保障和追责系统。",
+    report: "reports/2026-09-24-back-market.html",
+    accent: "#00a86b",
+    cover: ""
+  },
+  {
     slug: "loop-earplugs",
     date: "2026-09-23",
     brand: "Loop Earplugs",
