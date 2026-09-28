@@ -1,5 +1,18 @@
 window.BRAND_CASES = [
   {
+    slug: "fellow",
+    date: "2026-09-28",
+    brand: "Fellow",
+    category: "精品咖啡 / 消费硬件 / 内容零售",
+    market: "美国 / 全球精品咖啡市场",
+    tags: ["英雄产品", "冲煮教育", "设备到咖啡"],
+    summary: "Fellow 没把咖啡器具卖成参数越多越好的设备，而是用 Stagg 壶、Ode 磨豆机把温度、流速与研磨翻译成顺手动作，再用冲煮指南、咖啡师内容、套装和每周 Drops 把硬件首购延伸为持续练习。",
+    insight: "高门槛硬件增长的关键，是把专家参数变成用户可重复的动作，再用内容与耗材让一次设备交易持续产生使用反馈。",
+    report: "reports/2026-09-28-fellow.html",
+    accent: "#e85d3f",
+    cover: ""
+  },
+  {
     slug: "back-market",
     date: "2026-09-24",
     brand: "Back Market",
