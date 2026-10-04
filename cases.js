@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "tushy", date: "2026-10-05", brand: "TUSHY",
+    category: "卫浴 / DTC消费硬件 / 家庭健康", market: "美国 / 加拿大 / 全球",
+    tags: ["羞耻解码", "安装教育", "兼容性承接"],
+    summary: "TUSHY 没把坐浴器卖成严肃卫浴设备，而是用厕所幽默解除讨论羞耻，再用十分钟安装、兼容性比较、真人支持与分层产品，把水源、尺寸、租房和售后顾虑拆成用户能逐项确认的购买动作。",
+    insight: "羞耻品类的增长不是把话说得更大胆，而是用大胆语言赢得注意后，立刻用具体教学和风险兜底兑现信任。",
+    report: "reports/2026-10-05-tushy.html", accent: "#49b8d6", cover: ""
+  },
+  {
     slug: "fellow",
     date: "2026-09-28",
     brand: "Fellow",
