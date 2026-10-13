@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "therabody", date: "2026-10-13", brand: "Therabody",
+    category: "健康科技 / 消费硬件 / 恢复训练", market: "美国 / 全球60多个国家",
+    tags: ["场景教育", "专家内容", "硬件生态"],
+    summary: "Therabody 没把筋膜枪只卖成马力更大的恢复工具，而是按热身、运动后、久坐与睡前拆解动作，用屏幕引导、App 个性化方案、运动员与专业渠道背书，把不会用、怕用错和买后闲置转成可重复的恢复程序。",
+    insight: "高客单健康硬件的竞争，不只在硬件参数，而在谁能把复杂使用方法压缩成用户今天就能完成、明天还愿意重复的动作。",
+    report: "reports/2026-10-13-therabody.html", accent: "#ff5a36", cover: ""
+  },
+  {
     slug: "tushy", date: "2026-10-05", brand: "TUSHY",
     category: "卫浴 / DTC消费硬件 / 家庭健康", market: "美国 / 加拿大 / 全球",
     tags: ["羞耻解码", "安装教育", "兼容性承接"],
