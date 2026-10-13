@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "whoop", date: "2026-10-14", brand: "WHOOP",
+    category: "健康穿戴 / 订阅软件 / 运动表现", market: "美国 / 全球60个国家",
+    tags: ["无屏设计", "行为反馈", "会员订阅"],
+    summary: "WHOOP 没把健康手环做成另一块抢注意力的屏幕，而是采集睡眠、负荷与恢复数据，再用每日三分数、Journal 行为实验、免费试用和分层会员，把看不懂的生理信号转成今天该练、该休息还是该改习惯的行动。",
+    insight: "订阅型硬件要持续收费，不能只持续采集数据；它必须不断把数据翻译成用户当天能执行、随后能验证的决策。",
+    report: "reports/2026-10-14-whoop.html", accent: "#b9ff39", cover: ""
+  },
+  {
     slug: "therabody", date: "2026-10-13", brand: "Therabody",
     category: "健康科技 / 消费硬件 / 恢复训练", market: "美国 / 全球60多个国家",
     tags: ["场景教育", "专家内容", "硬件生态"],
