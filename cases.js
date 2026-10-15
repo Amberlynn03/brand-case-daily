@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "barkbox", date: "2026-10-16", brand: "BarkBox",
+    category: "宠物用品 / 订阅电商 / 内容零售", market: "美国 / 北美",
+    tags: ["主题订阅", "犬只画像", "零售试用"],
+    summary: "BarkBox 把买狗玩具的重复采购变成按体型、咀嚼强度与食物敏感性匹配的主题惊喜。它用开箱内容制造期待，用问卷和客服减少错配，让 Target 节日盒承担线下试用入口；财报提醒订阅增长须经得起获客与履约压力检验。",
+    insight: "订阅盒的复购不只靠每月制造新鲜感，更取决于能否持续匹配真实使用者，并让新鲜感覆盖交付成本。",
+    report: "reports/2026-10-16-barkbox.html", accent: "#ed6b47", cover: ""
+  },
+  {
     slug: "whoop", date: "2026-10-14", brand: "WHOOP",
     category: "健康穿戴 / 订阅软件 / 运动表现", market: "美国 / 全球60个国家",
     tags: ["无屏设计", "行为反馈", "会员订阅"],
