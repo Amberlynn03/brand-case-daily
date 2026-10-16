@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "allbirds", date: "2026-10-17", brand: "Allbirds",
+    category: "可持续鞋履 / DTC / 全渠道", market: "美国 / 国际分销市场",
+    tags: ["材料叙事", "碳足迹标签", "渠道收缩"],
+    summary: "Allbirds 用羊毛、桉树纤维和甘蔗材料，把低碳鞋履讲成舒适的日常选择，再用碳足迹标签和创作者内容建立差异。门店收缩与资产出售说明：理念能赢得注意，仍要接受产品复购、渠道效率与盈利能力的检验。",
+    insight: "可持续主张应成为产品体验的证据，而非替代产品体验；扩张前必须验证鞋款复购和门店经济性。",
+    report: "reports/2026-10-17-allbirds.html", accent: "#7bbd84", cover: ""
+  },
+  {
     slug: "barkbox", date: "2026-10-16", brand: "BarkBox",
     category: "宠物用品 / 订阅电商 / 内容零售", market: "美国 / 北美",
     tags: ["主题订阅", "犬只画像", "零售试用"],
