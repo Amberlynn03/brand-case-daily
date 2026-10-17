@@ -3,7 +3,7 @@ window.BRAND_CASES = [
     slug: "elf-cosmetics", date: "2026-10-18", brand: "e.l.f. Cosmetics",
     category: "平价美妆 / 内容营销 / 全渠道", market: "美国 / 英国 / 墨西哥等国际市场",
     tags: ["原创音乐", "全民共创", "零售承接"],
-    summary: "e.l.f. 用平价彩妆与原创音乐降低门槛，让用户把品牌名拍成自己的短视频，再以 Power Grip 等产品承接热度。TikTok Shop、独立站和零售同步接单；集团财报增长不能直接归因于一场挑战赛。",
+    summary: "e.l.f. 用平价彩妆与原创音乐降低门槛，让用户把品牌名拍成短视频，再以 Power Grip 等产品承接热度。TikTok Shop、独立站和零售同步接单；集团财报增长不能直接归因于一场挑战赛。",
     insight: "内容共创要有可模仿的动作和明确的产品入口；衡量时应区分观看、参与、首购与持续购买。",
     report: "reports/2026-10-18-elf-cosmetics.html", accent: "#f179a3", cover: ""
   },
