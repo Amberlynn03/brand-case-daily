@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "huel", date: "2026-10-19", brand: "Huel",
+    category: "营养食品 / DTC订阅 / 即饮零售", market: "英国 / 美国 / 欧洲",
+    tags: ["场景替餐", "订阅补货", "创作者分层"],
+    summary: "Huel 把忙碌时随便吃的午餐，改写成可计算、可携带的一餐：粉剂、即饮和热食分别承接居家、通勤与办公室，再用弹性订阅、积分和推荐形成补货习惯。它卖的不是替代所有正常饮食，而是替换最容易被忽略的一餐。",
+    insight: "先占据明确的一餐，再按使用阻力设计形态；订阅要以可编辑、可暂停的真实便利换取复购。",
+    report: "reports/2026-10-19-huel.html", accent: "#c8ed58", cover: ""
+  },
+  {
     slug: "elf-cosmetics", date: "2026-10-18", brand: "e.l.f. Cosmetics",
     category: "平价美妆 / 内容营销 / 全渠道", market: "美国 / 英国 / 墨西哥等国际市场",
     tags: ["原创音乐", "全民共创", "零售承接"],
