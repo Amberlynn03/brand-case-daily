@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "grammarly", date: "2026-10-21", brand: "Grammarly",
+    category: "AI 写作 / SaaS / 产品驱动增长", market: "全球英语写作用户 / 企业 / 教育机构",
+    tags: ["浏览器插件", "免费到付费", "团队扩散"],
+    summary: "Grammarly 把拼写和语气建议放进文本框，让价值可见。免费版降低门槛，联盟伙伴按注册与升级引流，团队版用风格指南承接组织需求。母公司已更名 Superhuman，Grammarly 产品仍存在。",
+    insight: "SaaS 增长从高频、低门槛的即时价值开始，再让个人体验自然暴露团队协作问题。",
+    report: "reports/2026-10-21-grammarly.html", accent: "#50bf95", cover: ""
+  },
+  {
     slug: "jackery", date: "2026-10-20", brand: "Jackery",
     category: "便携储能 / 智能硬件 / 全渠道", market: "美国 / 欧洲 / 全球市场",
     tags: ["场景翻译", "配置教育", "零售承接"],
