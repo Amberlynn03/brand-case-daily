@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "jackery", date: "2026-10-20", brand: "Jackery",
+    category: "便携储能 / 智能硬件 / 全渠道", market: "美国 / 欧洲 / 全球市场",
+    tags: ["场景翻译", "配置教育", "零售承接"],
+    summary: "Jackery 把瓦时与输出功率，翻译成露营、房车和停电时究竟能带动什么设备，再用电源加太阳能板的套装降低配置门槛。独立站解释兼容与保修，平台和零售扩大触达；高客单硬件最终靠真实测试与售后兑现信任。",
+    insight: "先让用户算清要带动的设备、时长与功率，再谈型号；高客单硬件的保修和真实演示也是转化内容。",
+    report: "reports/2026-10-20-jackery.html", accent: "#f2a64c", cover: ""
+  },
+  {
     slug: "huel", date: "2026-10-19", brand: "Huel",
     category: "营养食品 / DTC订阅 / 即饮零售", market: "英国 / 美国 / 欧洲",
     tags: ["场景替餐", "订阅补货", "创作者分层"],
