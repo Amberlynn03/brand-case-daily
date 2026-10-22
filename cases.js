@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "coterie", date: "2026-10-22", brand: "Coterie",
+    category: "母婴用品 / DTC 订阅 / 零售", market: "美国市场",
+    tags: ["夜间场景", "尺码教育", "短信订阅"],
+    summary: "Coterie 把纸尿裤选择拉回夜间漏尿、尺码变化和补货焦虑。产品页用特定尺码的实验室测试解释吸收性能，选码内容减少误购；单包零售降低试用门槛，官网订阅用短信改尺码、延期和取消承接持续需求。",
+    insight: "高频消耗品的订阅价值不是锁定用户，而是让尺码和发货节奏跟得上真实使用变化。",
+    report: "reports/2026-10-22-coterie.html", accent: "#a7c0eb", cover: ""
+  },
+  {
     slug: "grammarly", date: "2026-10-21", brand: "Grammarly",
     category: "AI 写作 / SaaS / 产品驱动增长", market: "全球英语写作用户 / 企业 / 教育机构",
     tags: ["浏览器插件", "免费到付费", "团队扩散"],
