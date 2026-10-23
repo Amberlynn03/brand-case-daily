@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "kizik", date: "2026-10-23", brand: "Kizik",
+    category: "功能鞋履 / DTC / 创作者营销", market: "美国 / 国际市场",
+    tags: ["免手穿鞋", "动态演示", "尺码承接"],
+    summary: "Kizik 用后跟回弹动作，把免弯腰穿鞋变成一眼能懂的体验。品牌以日常、旅行和运动场景扩展受众，用创作者合作、专题页和尺码指南承接需求；真正要验证的是穿脱方便之外，脚感、合脚与退货率能否同时成立。",
+    insight: "功能鞋的第一传播素材应展示真实动作；成交仍取决于合脚、舒适与清楚的退换货条件。",
+    report: "reports/2026-10-23-kizik.html", accent: "#f2ca69", cover: ""
+  },
+  {
     slug: "coterie", date: "2026-10-22", brand: "Coterie",
     category: "母婴用品 / DTC 订阅 / 零售", market: "美国市场",
     tags: ["夜间场景", "尺码教育", "短信订阅"],
