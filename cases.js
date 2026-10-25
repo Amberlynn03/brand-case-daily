@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "furbo", date: "2026-10-25", brand: "Furbo",
+    category: "宠物智能硬件 / 订阅软件 / DTC", market: "美国 / 欧洲 / 亚洲等市场",
+    tags: ["离家场景", "硬件加订阅", "宠物提醒"],
+    summary: "Furbo 将宠物独处焦虑转化为远程查看、通话和投零食的互动。硬件保留免费基础功能，Nanny 订阅提供历史视频与进阶提醒。拆解重点是内容如何呈现场景，以及免费付费边界、误报和取消条件怎样影响信任。",
+    insight: "宠物摄像头的长期价值取决于有用的提醒和可信的服务边界，而非单靠首次观看的惊喜。",
+    report: "reports/2026-10-25-furbo.html", accent: "#77d4d0", cover: ""
+  },
+  {
     slug: "kizik", date: "2026-10-23", brand: "Kizik",
     category: "功能鞋履 / DTC / 创作者营销", market: "美国 / 国际市场",
     tags: ["免手穿鞋", "动态演示", "尺码承接"],
