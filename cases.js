@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "ooni", date: "2026-10-26", brand: "Ooni",
+    category: "户外厨电 / DTC / 内容电商", market: "美国 / 英国 / 欧洲等市场",
+    tags: ["场景教育", "食谱内容", "选购问卷"],
+    summary: "Ooni 把高温披萨炉变成家庭聚会的主角：出炉画面吸引关注，面团教程和派对内容降低首用门槛，选炉问卷与对比页帮助选型。深拆创作者、独立站、配件与售后保障如何衔接，也提醒场地、燃料和学习成本不能省略。",
+    insight: "耐用品的成交不只靠性能演示，还要让用户看见第一次成功和之后反复使用的路径。",
+    report: "reports/2026-10-26-ooni.html", accent: "#f07d50", cover: ""
+  },
+  {
     slug: "furbo", date: "2026-10-25", brand: "Furbo",
     category: "宠物智能硬件 / 订阅软件 / DTC", market: "美国 / 欧洲 / 亚洲等市场",
     tags: ["离家场景", "硬件加订阅", "宠物提醒"],
