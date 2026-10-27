@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "yoto", date: "2026-10-27", brand: "Yoto",
+    category: "儿童音频硬件 / 内容卡片 / 订阅", market: "美国 / 英国 / 国际市场",
+    tags: ["无屏儿童内容", "实体卡片", "会员与零售"],
+    summary: "Yoto 用插卡即播回应屏幕焦虑和孩子的自主需求。第 4 代新增 Green Button，App 由家长管理；自制卡与会员延长使用场景，Target 演示帮助理解产品。重点拆解内容、渠道与订阅边界。",
+    insight: "儿童产品要同时设计孩子的自主动作和家长的信任界面，不能只卖“少看屏幕”。",
+    report: "reports/2026-10-27-yoto.html", accent: "#f5ba49", cover: ""
+  },
+  {
     slug: "ooni", date: "2026-10-26", brand: "Ooni",
     category: "户外厨电 / DTC / 内容电商", market: "美国 / 英国 / 欧洲等市场",
     tags: ["场景教育", "食谱内容", "选购问卷"],
