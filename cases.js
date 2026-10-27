@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "birdfy", date: "2026-10-28", brand: "Birdfy",
+    category: "智能喂鸟器 / AI 识别 / DTC", market: "美国 / 欧洲 / 国际市场",
+    tags: ["后院观鸟", "用户视频", "硬件加会员"],
+    summary: "Birdfy 把偶见的小鸟变成自动记录、App 提醒、AI 识别和分享的连续体验。用户片段与达人内容负责传播，官网解释型号、供电和会员差异。拆解内容到成交的路径，也提醒清洁、识别准确率与订阅权益边界。",
+    insight: "把偶发的自然惊喜做成可保存的内容，前提是设备维护和服务收费都讲得足够清楚。",
+    report: "reports/2026-10-28-birdfy.html", accent: "#74b2a5", cover: ""
+  },
+  {
     slug: "yoto", date: "2026-10-27", brand: "Yoto",
     category: "儿童音频硬件 / 内容卡片 / 订阅", market: "美国 / 英国 / 国际市场",
     tags: ["无屏儿童内容", "实体卡片", "会员与零售"],
