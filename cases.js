@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "vessi", date: "2026-11-02", brand: "Vessi",
+    category: "功能鞋履 / DTC / 创作者营销", market: "美国 / 加拿大 / 国际市场",
+    tags: ["防水演示", "场景翻译", "尺码与售后"],
+    summary: "Vessi 把雨天湿袜的烦恼，转成可在水坑里演示的防水针织鞋。内容先证明不进水，再用通勤、遛狗与旅行场景扩展用途；官网尺码指南、免费换码和防水保障承接犹豫。透气感、抓地力与退货条件仍需单独验证。",
+    insight: "强视觉卖点负责让人停下，真实穿着、合脚与清晰售后决定用户是否留下。",
+    report: "reports/2026-11-02-vessi.html", accent: "#7fbad6", cover: ""
+  },
+  {
     slug: "waterdrop", date: "2026-11-01", brand: "waterdrop®",
     category: "功能饮品 / DTC 订阅 / 零售", market: "美国 / 欧洲 / 国际市场",
     tags: ["饮水习惯", "口味试用", "订阅与会员"],
