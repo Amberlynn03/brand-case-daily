@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "waterdrop", date: "2026-11-01", brand: "waterdrop®",
+    category: "功能饮品 / DTC 订阅 / 零售", market: "美国 / 欧洲 / 国际市场",
+    tags: ["饮水习惯", "口味试用", "订阅与会员"],
+    summary: "waterdrop® 把喝水习惯拆成投入风味块、带瓶、App 提醒和补货。创作者展示场景，门店试饮降低选味风险，官网订阅允许换味、跳过与取消。案例分析试用到复购的链路，也指出健康与环保主张的证据边界。",
+    insight: "习惯型消费品要降低每天重复行动的阻力，而不只是把第一次购买包装得更诱人。",
+    report: "reports/2026-11-01-waterdrop.html", accent: "#78c8b7", cover: ""
+  },
+  {
     slug: "birdfy", date: "2026-10-28", brand: "Birdfy",
     category: "智能喂鸟器 / AI 识别 / DTC", market: "美国 / 欧洲 / 国际市场",
     tags: ["后院观鸟", "用户视频", "硬件加会员"],
