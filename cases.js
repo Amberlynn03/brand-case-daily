@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "rumpl", date: "2026-11-03", brand: "Rumpl",
+    category: "户外毯 / DTC / 创作者营销", market: "美国 / 加拿大 / 国际市场",
+    tags: ["场景翻译", "户外创作者", "尺码承接"],
+    summary: "Rumpl 把睡袋的保暖与耐用思路，改造成可收纳、可披在身上的户外毯。露营、球场和沙发场景负责展示用途，创作者链接与折扣码连接内容和成交；官网尺码指南、材质说明及售后条款降低犹豫，但防泼水不等于防水。",
+    insight: "用一个可演示的产品动作跨越多个场景，成交仍取决于尺寸、养护和使用边界是否讲清。",
+    report: "reports/2026-11-03-rumpl.html", accent: "#e5a878", cover: ""
+  },
+  {
     slug: "vessi", date: "2026-11-02", brand: "Vessi",
     category: "功能鞋履 / DTC / 创作者营销", market: "美国 / 加拿大 / 国际市场",
     tags: ["防水演示", "场景翻译", "尺码与售后"],
