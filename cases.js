@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "loop-earplugs", date: "2026-11-04", brand: "Loop Earplugs",
+    category: "听力防护 / DTC / 创作者营销", market: "比利时 / 美国 / 国际市场",
+    tags: ["场景分层", "佩戴演示", "联盟归因"],
+    summary: "Loop 把耳塞从“堵住声音”改写成按音乐、对话、专注与睡眠选模式的配件。创作者用真实噪声场景解释差异，官网比较页与试用政策承接选款；联盟链接能记录成交，却不能单独证明增量，实际降噪取决于尺寸和戴法。",
+    insight: "先替用户定义想保留什么声音，再卖降噪幅度；佩戴正确比漂亮数字更重要。",
+    report: "reports/2026-11-04-loop-earplugs.html", accent: "#e7b866", cover: ""
+  },
+  {
     slug: "rumpl", date: "2026-11-03", brand: "Rumpl",
     category: "户外毯 / DTC / 创作者营销", market: "美国 / 加拿大 / 国际市场",
     tags: ["场景翻译", "户外创作者", "尺码承接"],
