@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "cometeer", date: "2026-11-05", brand: "Cometeer",
+    category: "精品咖啡 / 冷冻食品 / DTC 订阅", market: "美国市场",
+    tags: ["预萃取冷冻", "烘焙商合作", "订阅与冷链"],
+    summary: "Cometeer 把咖啡研磨、萃取交给工厂，用冷冻胶囊让用户加水就能喝。烘焙商合作提供风味信任，创作者演示热饮、冰饮与冷冻收纳；官网支持单次购买及可暂停订阅，但冷链成本、冰箱空间和不可退货是扩张边界。",
+    insight: "把用户的技术门槛转移到供应链之后，必须同时交代便利背后的履约代价。",
+    report: "reports/2026-11-05-cometeer.html", accent: "#8cb8ad", cover: ""
+  },
+  {
     slug: "loop-earplugs", date: "2026-11-04", brand: "Loop Earplugs",
     category: "听力防护 / DTC / 创作者营销", market: "比利时 / 美国 / 国际市场",
     tags: ["场景分层", "佩戴演示", "联盟归因"],
