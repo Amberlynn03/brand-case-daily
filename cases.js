@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "brumate", date: "2026-11-06", brand: "BrüMate",
+    category: "保温杯 / DTC / 创作者营销", market: "美国 / 国际市场",
+    tags: ["防漏演示", "杯盖设计", "会员与零售"],
+    summary: "BrüMate 把吸管杯怕打翻的冲突，做成旋转锁盖动作。创作者演示冷饮防漏、通勤杯架和清洗，官网用容量、配件与质保承接；联盟、TikTok Shop 和会员分工，但防漏有饮品与锁盖条件，不能当万能承诺。",
+    insight: "可拍的功能演示负责获客，使用边界、清洁和售后决定能否留下。",
+    report: "reports/2026-11-06-brumate.html", accent: "#e6a975", cover: ""
+  },
+  {
     slug: "cometeer", date: "2026-11-05", brand: "Cometeer",
     category: "精品咖啡 / 冷冻食品 / DTC 订阅", market: "美国市场",
     tags: ["预萃取冷冻", "烘焙商合作", "订阅与冷链"],
