@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "trtl-travel", date: "2026-11-07", brand: "Trtl Travel",
+    category: "旅行配件 / DTC / 创作者营销", market: "英国 / 美国 / 欧洲 / 亚太",
+    tags: ["佩戴演示", "睡姿选型", "跨境履约"],
+    summary: "Trtl 把 U 形旅行枕的体积和托头不足，改写成围巾式内支撑。创作者展示长途飞行中的佩戴动作，官网用枕型对比、问卷与洗护教程承接；多地区站点扩大覆盖，但运费、退货成本和个人舒适度不能靠一条视频保证。",
+    insight: "强差异产品要同时教会用户正确使用，否则可见的新奇感会变成到手后的不适。",
+    report: "reports/2026-11-07-trtl-travel.html", accent: "#8cc9c5", cover: ""
+  },
+  {
     slug: "brumate", date: "2026-11-06", brand: "BrüMate",
     category: "保温杯 / DTC / 创作者营销", market: "美国 / 国际市场",
     tags: ["防漏演示", "杯盖设计", "会员与零售"],
