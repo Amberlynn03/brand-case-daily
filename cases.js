@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "lomi", date: "2026-11-08", brand: "Lomi",
+    category: "厨余处理硬件 / DTC / 耗材订阅", market: "加拿大 / 美国 / 欧洲",
+    tags: ["厨余减量", "预堆肥边界", "滤芯订阅"],
+    summary: "Lomi 把厨余异味、果蝇和频繁倒垃圾的问题，变成台面设备的加料、运行和清洁流程。透明盖与体积对比适合内容演示，官网用投料清单、试用和滤芯订阅承接；但产物是预堆肥，电耗、耗材和后续处置仍决定真实价值。",
+    insight: "把环保愿望转成家庭日常动作时，必须把产物边界与持续成本放在同一页。",
+    report: "reports/2026-11-08-lomi.html", accent: "#a3c77e", cover: ""
+  },
+  {
     slug: "trtl-travel", date: "2026-11-07", brand: "Trtl Travel",
     category: "旅行配件 / DTC / 创作者营销", market: "英国 / 美国 / 欧洲 / 亚太",
     tags: ["佩戴演示", "睡姿选型", "跨境履约"],
