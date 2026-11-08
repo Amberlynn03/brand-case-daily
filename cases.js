@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "bellroy", date: "2026-11-09", brand: "Bellroy",
+    category: "随身收纳 / DTC / 全球零售", market: "澳大利亚 / 美国 / 全球",
+    tags: ["场景选型", "联盟内容", "全渠道"],
+    summary: "Bellroy 从钱包鼓胀切入，用装满前后对比解释轻薄与容量的取舍，再延伸到通勤、旅行和科技收纳。联盟内容负责发现，独立站负责选型和跨境交付，零售负责体验；新开自营店能否盈利，仍需与老渠道分开验证。",
+    insight: "让功能差异可见，再用选型、履约和门店体验接住更复杂的全球购买决策。",
+    report: "reports/2026-11-09-bellroy.html", accent: "#6fa89c", cover: ""
+  },
+  {
     slug: "lomi", date: "2026-11-08", brand: "Lomi",
     category: "厨余处理硬件 / DTC / 耗材订阅", market: "加拿大 / 美国 / 欧洲",
     tags: ["厨余减量", "预堆肥边界", "滤芯订阅"],
