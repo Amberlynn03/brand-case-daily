@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "pacsafe", date: "2026-11-10", brand: "Pacsafe",
+    category: "旅行防盗包 / DTC / 区域站点", market: "美国 / 欧洲 / 英国 / 亚太",
+    tags: ["风险场景", "结构演示", "分区履约"],
+    summary: "Pacsafe 把扒窃、割包和顺手牵包的担心，拆成锁扣、钢网、防割肩带和防扫描口袋的演示。独立站按地区分工，联盟招募独行与可持续旅行创作者；但防护只能降低特定风险，不能代替看管，也不能保证绝对安全。",
+    insight: "把抽象焦虑转成可见的使用步骤，同时把产品防护边界说透。",
+    report: "reports/2026-11-10-pacsafe.html", accent: "#5a9d85", cover: ""
+  },
+  {
     slug: "bellroy", date: "2026-11-09", brand: "Bellroy",
     category: "随身收纳 / DTC / 全球零售", market: "澳大利亚 / 美国 / 全球",
     tags: ["场景选型", "联盟内容", "全渠道"],
