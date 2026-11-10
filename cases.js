@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "ecoflow", date: "2026-11-11", brand: "EcoFlow",
+    category: "便携储能 / DTC / 创作者营销", market: "中国 / 美国 / 欧洲 / 日本",
+    tags: ["用电场景", "容量教育", "联盟归因"],
+    summary: "EcoFlow 把用电焦虑翻译成冰箱、路由器等设备的功率与续航选择。RIVER、DELTA 和太阳能组合承接需求，创作者演示真实负载；但标称电量不是可用电量，太阳能表现、兼容和退货成本需在购买前说明。",
+    insight: "高客单硬件先教用户算清需求，再让内容、选型工具和售后承担不同决策环节。",
+    report: "reports/2026-11-11-ecoflow.html", accent: "#76b8be", cover: ""
+  },
+  {
     slug: "pacsafe", date: "2026-11-10", brand: "Pacsafe",
     category: "旅行防盗包 / DTC / 区域站点", market: "美国 / 欧洲 / 英国 / 亚太",
     tags: ["风险场景", "结构演示", "分区履约"],

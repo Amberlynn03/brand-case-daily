@@ -6,4 +6,4 @@
 
 公开案例库：https://amberlynn03.github.io/brand-case-daily/
 
-最新案例：[Pacsafe（2026-11-10）](reports/2026-11-10-pacsafe.html)。
+最新案例：[EcoFlow（2026-11-11）](reports/2026-11-11-ecoflow.html)。
