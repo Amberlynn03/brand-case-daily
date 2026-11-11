@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "govee", date: "2026-11-12", brand: "Govee",
+    category: "智能氛围灯 / DTC / 创作者内容", market: "中国 / 美国 / 欧洲 / 全球",
+    tags: ["屏幕同步", "安装教育", "联盟归因"],
+    summary: "Govee 用电视背光同步吸引游戏和观影人群，再用尺寸选型、摄像头校准和应用设置承接购买。联盟内容展示真实安装；但 2.4GHz 网络、曲面屏不兼容和环境反光，会影响到手体验，不能只卖演示片段。",
+    insight: "可拍的即时效果负责获客，安装教学和兼容边界决定体验能否兑现。",
+    report: "reports/2026-11-12-govee.html", accent: "#77b6c9", cover: ""
+  },
+  {
     slug: "ecoflow", date: "2026-11-11", brand: "EcoFlow",
     category: "便携储能 / DTC / 创作者营销", market: "中国 / 美国 / 欧洲 / 日本",
     tags: ["用电场景", "容量教育", "联盟归因"],
