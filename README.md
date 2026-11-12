@@ -6,4 +6,4 @@
 
 公开案例库：https://amberlynn03.github.io/brand-case-daily/
 
-最新案例：[Govee（2026-11-12）](reports/2026-11-12-govee.html)。
+最新案例：[PETKIT（2026-11-13）](reports/2026-11-13-petkit.html)。

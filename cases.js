@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "petkit", date: "2026-11-13", brand: "PETKIT",
+    category: "智能宠物用品 / DTC / 耗材", market: "中国 / 美国 / 全球区域渠道",
+    tags: ["安全边界", "场景教育", "耗材复购"],
+    summary: "PETKIT 把铲屎、异味和如厕观察拆成自动清理、传感器保护、App 记录与耗材补充。产品页演示日常流程，官网与区域渠道承接选型；但传感器不是无人看护保证，年龄体重限制、猫砂适配和持续成本必须先说清。",
+    insight: "智能宠物硬件真正卖的是可验证的照护流程，而不是一句“完全不用管”。",
+    report: "reports/2026-11-13-petkit.html", accent: "#6da89c", cover: ""
+  },
+  {
     slug: "govee", date: "2026-11-12", brand: "Govee",
     category: "智能氛围灯 / DTC / 创作者内容", market: "中国 / 美国 / 欧洲 / 全球",
     tags: ["屏幕同步", "安装教育", "联盟归因"],
