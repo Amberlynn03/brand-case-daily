@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "ugreen-nasync", date: "2026-11-14", brand: "UGREEN NASync",
+    category: "智能存储 / DTC / 创作者社区", market: "中国 / 美国 / 欧洲",
+    tags: ["私有云", "备份教育", "创作者社区"],
+    summary: "UGREEN NASync 从文件分散切入，用四盘位 NAS、跨设备访问和教程承接。达人演示负责发现，官网解释硬盘另购和 RAID 配置；但 RAID 不是备份，恢复演练、网速与维护成本必须算进决策。",
+    insight: "高客单技术产品的增长，不只靠参数展示，还靠把设置、备份和恢复教到用户会做。",
+    report: "reports/2026-11-14-ugreen-nasync.html", accent: "#78b8ab", cover: ""
+  },
+  {
     slug: "petkit", date: "2026-11-13", brand: "PETKIT",
     category: "智能宠物用品 / DTC / 耗材", market: "中国 / 美国 / 全球区域渠道",
     tags: ["安全边界", "场景教育", "耗材复购"],
