@@ -6,4 +6,4 @@
 
 公开案例库：https://amberlynn03.github.io/brand-case-daily/
 
-最新案例：[UGREEN NASync（2026-11-14）](reports/2026-11-14-ugreen-nasync.html)。
+最新案例：[Peak Design（2026-11-15）](reports/2026-11-15-peak-design.html)。

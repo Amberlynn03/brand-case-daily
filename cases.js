@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "peak-design", date: "2026-11-15", brand: "Peak Design",
+    category: "摄影背包 / 众筹 / DTC", market: "美国 / 全球市场",
+    tags: ["场景演示", "尺寸选型", "终身保修"],
+    summary: "Peak Design 从摄影师取放器材切入，把侧开取物、可调分隔和通勤收纳做成演示动作。众筹验证需求，官网用尺寸指南、组合购买和保修承接；但背负、器材适配与跨境退货因人因地区而异，不能只凭视频下单。",
+    insight: "高溢价背包要让动作差异可见，再用选型与长期服务兑现承诺。",
+    report: "reports/2026-11-15-peak-design.html", accent: "#8aa0a9", cover: ""
+  },
+  {
     slug: "ugreen-nasync", date: "2026-11-14", brand: "UGREEN NASync",
     category: "智能存储 / DTC / 创作者社区", market: "中国 / 美国 / 欧洲",
     tags: ["私有云", "备份教育", "创作者社区"],
