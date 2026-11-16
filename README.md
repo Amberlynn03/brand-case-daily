@@ -6,4 +6,4 @@
 
 公开案例库：https://amberlynn03.github.io/brand-case-daily/
 
-最新案例：[Peak Design（2026-11-15）](reports/2026-11-15-peak-design.html)。
+最新案例：[Reolink（2026-11-17）](reports/2026-11-17-reolink-argus-4-pro.html)。

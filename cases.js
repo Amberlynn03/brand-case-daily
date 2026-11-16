@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "reolink-argus-4-pro", date: "2026-11-17", brand: "Reolink",
+    category: "智能安防 / 太阳能摄像机 / DTC", market: "中国 / 美国 / 欧洲",
+    tags: ["免布线安装", "事件录制", "本地存储"],
+    summary: "Reolink 用广角、彩色夜视和太阳能配件吸引不便布线的家庭。达人拍安装与触发，官网解释 Wi-Fi 和存储；但电池机以事件录制为主，日照、电量和误报会改变体验，不能当作全天连续监控。",
+    insight: "可视化安防卖点必须连同安装条件与漏录风险一起展示。",
+    report: "reports/2026-11-17-reolink-argus-4-pro.html", accent: "#77aeb7", cover: ""
+  },
+  {
     slug: "peak-design", date: "2026-11-15", brand: "Peak Design",
     category: "摄影背包 / 众筹 / DTC", market: "美国 / 全球市场",
     tags: ["场景演示", "尺寸选型", "终身保修"],
