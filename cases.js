@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "heygen", date: "2026-11-18", brand: "HeyGen",
+    category: "AI 视频 / SaaS / 全球本地化", market: "美国 / 全球市场",
+    tags: ["视频本地化", "创作者联盟", "肖像授权"],
+    summary: "HeyGen 把跨语言视频从重拍改成翻译、配音与口型同步。免费试用和创作者教程负责发现，付费档用更长视频、校对与协作承接；但机器翻译不能保证准确，画面文字仍需另行处理，真人形象和声音必须取得明确授权。",
+    insight: "AI 视频出海的关键不是生成速度，而是让校对、授权和地区验证进入发布流程。",
+    report: "reports/2026-11-18-heygen.html", accent: "#65b3a9", cover: ""
+  },
+  {
     slug: "reolink-argus-4-pro", date: "2026-11-17", brand: "Reolink",
     category: "智能安防 / 太阳能摄像机 / DTC", market: "中国 / 美国 / 欧洲",
     tags: ["免布线安装", "事件录制", "本地存储"],
