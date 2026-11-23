@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "medicube", date: "2026-11-24", brand: "Medicube",
+    category: "美妆个护 / 家用美容仪 / DTC", market: "韩国 / 美国 / 全球市场",
+    tags: ["场景演示", "达人计划", "设备与护肤品组合"],
+    summary: "Medicube 用 AGE-R Booster Pro 把美容仪讲成护肤步骤：模式对应场景，达人负责演示，官网以教程、套装与售后承接；功效、使用禁忌和跨境退货边界，必须比短视频种草说得更清楚。",
+    insight: "美容科技出海的竞争点不只是参数，而是让消费者看懂步骤、敢于试用，并清楚知道限制。",
+    report: "reports/2026-11-24-medicube.html", accent: "#df8b8f", cover: ""
+  },
+  {
     slug: "heygen", date: "2026-11-18", brand: "HeyGen",
     category: "AI 视频 / SaaS / 全球本地化", market: "美国 / 全球市场",
     tags: ["视频本地化", "创作者联盟", "肖像授权"],

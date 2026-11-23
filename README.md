@@ -6,4 +6,4 @@
 
 公开案例库：https://amberlynn03.github.io/brand-case-daily/
 
-最新案例：[HeyGen（2026-11-18）](reports/2026-11-18-heygen.html)。
+最新案例：[Medicube（2026-11-24）](reports/2026-11-24-medicube.html)。
