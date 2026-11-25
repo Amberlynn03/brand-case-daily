@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "dbrand", date: "2026-11-25", brand: "dbrand",
+    category: "数码配件 / 手机壳 / DTC", market: "加拿大 / 美国 / 全球市场",
+    tags: ["场景演示", "创作者联名", "SKU配置"],
+    summary: "dbrand 把手机壳做成可演示、可替换的双重价值：Grip 负责手感和保护，Skin 负责表达。创作者联名带来发现，配置器承接型号和图案选择；跨境运费、安装失误与退货条件仍需清楚说明。",
+    insight: "配件出海要把抽象卖点拍成动作，并把复杂 SKU 选择留给清晰的购买流程。",
+    report: "reports/2026-11-25-dbrand.html", accent: "#bedc5d", cover: ""
+  },
+  {
     slug: "medicube", date: "2026-11-24", brand: "Medicube",
     category: "美妆个护 / 家用美容仪 / DTC", market: "韩国 / 美国 / 全球市场",
     tags: ["场景演示", "达人计划", "设备与护肤品组合"],
