@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "wild", date: "2026-11-26", brand: "Wild",
+    category: "个护 / 可替换芯除臭剂 / DTC", market: "英国 / 美国 / 欧洲",
+    tags: ["可替换芯", "订阅复购", "联盟归因"],
+    summary: "Wild 把除臭剂做成可重复使用外壳与替换芯：换芯演示负责解释价值，香型选择和订阅负责复购，联盟链接帮助归因。真正要讲清的是除臭不等于止汗、敏感肌适配因人而异，以及用户能否方便地跳过、调整或取消订阅。",
+    insight: "可持续个护的复购设计要从可见的换芯动作开始，再用透明订阅和功效边界建立信任。",
+    report: "reports/2026-11-26-wild.html", accent: "#74bfaa", cover: ""
+  },
+  {
     slug: "dbrand", date: "2026-11-25", brand: "dbrand",
     category: "数码配件 / 手机壳 / DTC", market: "加拿大 / 美国 / 全球市场",
     tags: ["场景演示", "创作者联名", "SKU配置"],
