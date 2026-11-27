@@ -6,4 +6,4 @@
 
 公开案例库：https://amberlynn03.github.io/brand-case-daily/
 
-最新案例：[Calendly（2026-11-27）](reports/2026-11-27-calendly.html)。
+最新案例：[Rothy's（2026-11-28）](reports/2026-11-28-rothys.html)。

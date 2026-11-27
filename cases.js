@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "rothys", date: "2026-11-28", brand: "Rothy's",
+    category: "鞋履 / 可机洗 / DTC", market: "美国 / 国际市场",
+    tags: ["可洗场景", "尺码承接", "推荐裂变"],
+    summary: "Rothy's 把再生材料翻译成可机洗的日常鞋履体验：内容演示清洗与穿搭，官网用尺码指南和门店试穿承接，推荐计划促进分享。但不同鞋型版型不同，洗后不得加热烘干，穿过或洗过的商品通常不符合常规退货条件。",
+    insight: "环保鞋履的竞争力要落在可验证的使用场景，同时把尺码与退换成本前置。",
+    report: "reports/2026-11-28-rothys.html", accent: "#e5a77f", cover: ""
+  },
+  {
     slug: "calendly", date: "2026-11-27", brand: "Calendly",
     category: "SaaS / 日程预约 / PLG", market: "美国 / 全球市场",
     tags: ["产品传播", "网站预约", "团队路由"],
