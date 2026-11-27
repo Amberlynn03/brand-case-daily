@@ -1,5 +1,13 @@
 window.BRAND_CASES = [
   {
+    slug: "calendly", date: "2026-11-27", brand: "Calendly",
+    category: "SaaS / 日程预约 / PLG", market: "美国 / 全球市场",
+    tags: ["产品传播", "网站预约", "团队路由"],
+    summary: "Calendly 用可分享链接把反复确认时间变成即时选时段：免费版降低门槛，网站嵌入承接咨询，团队路由与提醒承接协作。推广可按角色做教程与来源标记，但官方未公开联盟计划，也不能把预约数当成交数。",
+    insight: "效率型 SaaS 的传播入口可以就是产品动作本身，付费升级则要落在更复杂的团队协作上。",
+    report: "reports/2026-11-27-calendly.html", accent: "#7dc7b6", cover: ""
+  },
+  {
     slug: "wild", date: "2026-11-26", brand: "Wild",
     category: "个护 / 可替换芯除臭剂 / DTC", market: "英国 / 美国 / 欧洲",
     tags: ["可替换芯", "订阅复购", "联盟归因"],
